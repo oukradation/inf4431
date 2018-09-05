@@ -1,0 +1,38 @@
+oppg3
+
+a)
+when does the output data signal change, and what is the cause of this delay?
+
+	The simulation shows that output changes after 2.5 period. As input is 
+	updated asyncronously, process catches updated input at rising clock, 
+	which is after 50 ns. Then there is a delay for 200 ns, 2 period, which 
+	is caused by internal signals which are assigned between input and output.
+
+b)
+why is the output data equal to "UUUUUUUU" at time 50 ns?
+
+	UUUUUUUU is caused since rst_n starts with '1'. In the architecture, we only
+	initialize indata and outdata when reset is '0'.
+	
+c)
+Why is output(7 downto 6) always equal to output(3 downto 2)? Why is output(5 downto 4)
+ different from output(1 downto 0)?
+
+	signal is updated when process is done. This indicates that line 20,21
+	'''
+	  sig1 <= var1;
+          sig2 <= var2;
+	'''
+	doesn't do anything as sig2 and sig1 is updated afterwards.
+	
+	However, when variables are assigned, it has immediate effect. So output(5,4) 
+	and output(1,0) will be different.
+	
+d)
+Why does output(7 downto 6) and output(3 downto 2) have different values than in 
+exercise c)?
+
+	When the signal is in the sensitivity list, the process is triggered again after 
+        first round of process is done ( signal is changed ). Initial state of the signal is 
+        unknown and it receives a known value from assignment of variable. 
+
