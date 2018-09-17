@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Sep 17 13:26:56 2018
+# Process ID: 56418
+# Current directory: /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery
+# Command line: vivado ^
+# Log file: /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/vivado.log
+# Journal file: /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 17 13:28:03 2018...
