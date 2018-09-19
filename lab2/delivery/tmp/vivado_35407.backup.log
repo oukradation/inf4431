@@ -1,0 +1,102 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Sep 17 21:07:30 2018
+# Process ID: 35407
+# Current directory: /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery
+# Command line: vivado
+# Log file: /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/vivado.log
+# Journal file: /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7/seg7.xpr
+INFO: [Project 1-313] Project file moved from 'M:/pc/work/inf4431/lab2/delivery/seg7' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/uio/kant/ifi-project06/robin/programs/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 6186.883 ; gain = 95.840 ; free physical = 33622 ; free virtual = 131322
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z020clg484-1
+Top: reg
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:03:40 ; elapsed = 00:05:57 . Memory (MB): peak = 6198.891 ; gain = 5166.168 ; free physical = 33634 ; free virtual = 131334
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-4169] error in use clause: package 'std_logic_1164' not found in library 'ieee' [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/timer.vhd:2]
+ERROR: [Synth 8-4169] error in use clause: package 'numeric_std' not found in library 'ieee' [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/timer.vhd:3]
+ERROR: [Synth 8-1031] std_logic is not declared [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/timer.vhd:9]
+ERROR: [Synth 8-1031] std_logic is not declared [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/timer.vhd:10]
+ERROR: [Synth 8-1031] std_logic_vector is not declared [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/timer.vhd:11]
+INFO: [Synth 8-2810] unit timer ignored due to previous errors [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/timer.vhd:5]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:03:41 ; elapsed = 00:05:58 . Memory (MB): peak = 6198.898 ; gain = 5166.176 ; free physical = 33632 ; free virtual = 131333
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+1 Infos, 0 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z020clg484-1
+Top: reg
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:03:58 ; elapsed = 00:07:26 . Memory (MB): peak = 6198.898 ; gain = 5166.176 ; free physical = 33602 ; free virtual = 131303
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module '\reg ' [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/reg_str.vhd:4]
+INFO: [Synth 8-3491] module 'seg7ctrl' declared at '/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7ctrl_ent.vhd:4' bound to instance 'seg' of component 'seg7ctrl' [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/reg_str.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'seg7ctrl' [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7ctrl_rtl.vhd:5]
+	Parameter n bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'TIMER' declared at '/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/timer.vhd:6' bound to instance 'counter' of component 'timer' [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7ctrl_rtl.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'TIMER' [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/timer.vhd:16]
+	Parameter n bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'TIMER' (1#1) [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/timer.vhd:16]
+INFO: [Synth 8-3491] module 'DECODER' declared at '/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/decoder.vhd:5' bound to instance 'dec2to4' of component 'decoder' [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7ctrl_rtl.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'DECODER' [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/decoder.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'DECODER' (2#1) [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/decoder.vhd:15]
+INFO: [Synth 8-226] default block is never used [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/subprog_bdy.vhd:63]
+INFO: [Synth 8-226] default block is never used [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/subprog_bdy.vhd:63]
+INFO: [Synth 8-226] default block is never used [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/subprog_bdy.vhd:63]
+INFO: [Synth 8-226] default block is never used [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/subprog_bdy.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'seg7ctrl' (3#1) [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7ctrl_rtl.vhd:5]
+INFO: [Synth 8-3491] module 'regctrl' declared at '/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/regctrl_ent.vhd:4' bound to instance 'reg' of component 'regctrl' [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/reg_str.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'regctrl' [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/regctrl_rtl.vhd:4]
+INFO: [Synth 8-256] done synthesizing module 'regctrl' (4#1) [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/regctrl_rtl.vhd:4]
+INFO: [Synth 8-256] done synthesizing module '\reg ' (5#1) [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/reg_str.vhd:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:03:59 ; elapsed = 00:07:27 . Memory (MB): peak = 6198.898 ; gain = 5166.176 ; free physical = 33602 ; free virtual = 131303
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:59 ; elapsed = 00:07:28 . Memory (MB): peak = 6198.898 ; gain = 5166.176 ; free physical = 33602 ; free virtual = 131303
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7/seg7.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7/seg7.srcs/constrs_1/new/constraints.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:05:11 ; elapsed = 00:07:52 . Memory (MB): peak = 6726.785 ; gain = 5694.062 ; free physical = 33209 ; free virtual = 130911
+22 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:22 ; elapsed = 00:00:35 . Memory (MB): peak = 6726.785 ; gain = 527.887 ; free physical = 33209 ; free virtual = 130911
+reset_run synth_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 17 21:30:20 2018...
