@@ -1,0 +1,34 @@
+   20 AXI4Lite single word write to AXI4PIFB           @ 4000000C <= 12345678
+   31 AXI4Lite single word read from AXI4PIFB          @ 4000000C <= 12345678
+   42 Read value in testbench : 12345678
+   42 AXI4Lite single word read from AXI4PIFB          @ 4000000C <= 12345678
+   52 AXI4Lite single word write to AXI4PIFB           @ 4000000C <= ABCDEF98
+   63 AXI4Lite single word read from AXI4PIFB          @ 4000000C <= ABCDEF98
+   74 Read value in testbench : ABCDEF98
+   74 AXI4Lite single word read from AXI4PIFB          @ 4000000C <= ABCDEF98
+   84 AXI4Lite byte 0 write to AXI4PIFB                @ 40000010 <= 12
+   95 AXI4Lite byte 0 read from AXI4PIFB               @ 40000010 <= 12
+  106 Read value from sp in testbench : 12
+  106 AXI4Lite byte 0 read from AXI4PIFB               @ 40000010 <= 12
+  116 AXI4Lite single word read from AXI4PIFB          @ 40400000 <= 00000000
+  125 AXI4Lite single word write to AXI4PIFB           @ 40400000 <= 12345678
+  132 AXI4Lite single word write to AXI4PIFB           @ 40400004 <= 87654321
+  140 AXI4Lite single word write to AXI4PIFB           @ 40400008 <= ABCDEF98
+  148 AXI4Lite single word read from AXI4PIFB          @ 40400000 <= 12345678
+  156 AXI4Lite single word read from AXI4PIFB          @ 40400004 <= 87654321
+  164 AXI4Lite single word read from AXI4PIFB          @ 40400008 <= ABCDEF98
+  172 AXI4Lite halfword lower bytes write to AXI4PIFB  @ 40400000 <= 1234
+  180 AXI4Lite halfword upper bytes write to AXI4PIFB  @ 40400002 <= 5678
+  188 AXI4Lite halfword lower bytes read from AXI4PIFB @ 40400000 <= 1234
+  196 AXI4Lite halfword upper bytes read from AXI4PIFB @ 40400002 <= 5678
+  204 AXI4Lite single word read from AXI4PIFB          @ 40400000 <= 56781234
+  212 AXI4Lite byte 0 write to AXI4PIFB                @ 40400000 <= 01
+  220 AXI4Lite byte 1 write to AXI4PIFB                @ 40400001 <= 02
+  228 AXI4Lite byte 2 write to AXI4PIFB                @ 40400002 <= 03
+  236 AXI4Lite byte 3 write to AXI4PIFB                @ 40400003 <= 04
+  244 AXI4Lite byte 0 read from AXI4PIFB               @ 40400000 <= 01
+  252 AXI4Lite byte 1 read from AXI4PIFB               @ 40400001 <= 02
+  260 AXI4Lite byte 2 read from AXI4PIFB               @ 40400002 <= 03
+  268 AXI4Lite byte 3 read from AXI4PIFB               @ 40400003 <= 04
+  276 AXI4Lite single word read from AXI4PIFB          @ 40400000 <= 04030201
+100283   NOTE: Testbench simulation successful!

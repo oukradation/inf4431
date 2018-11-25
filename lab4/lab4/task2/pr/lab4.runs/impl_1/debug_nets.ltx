@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<probeData version="2" minor="0">
+  <probeset name="EDA_PROBESET" active="true">
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="HW_ILA" value="ILA"/>
+        <Option Id="PROBE_PORT" value="0"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="2"/>
+      </probeOptions>
+      <nets>
+        <net name="prob_rwvalid[1]"/>
+        <net name="prob_rwvalid[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="HW_ILA" value="ILA"/>
+        <Option Id="PROBE_PORT" value="1"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="8"/>
+      </probeOptions>
+      <nets>
+        <net name="setpoint[7]"/>
+        <net name="setpoint[6]"/>
+        <net name="setpoint[5]"/>
+        <net name="setpoint[4]"/>
+        <net name="setpoint[3]"/>
+        <net name="setpoint[2]"/>
+        <net name="setpoint[1]"/>
+        <net name="setpoint[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</probeData>

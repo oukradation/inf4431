@@ -1,0 +1,266 @@
+# //  Questa Sim-64
+# //  Version 10.6c_1 linux_x86_64 Sep 15 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project task2
+# Compile of lab4_pck.vhd was successful.
+# Compile of lab4_top_str.vhd failed with 2 errors.
+# Compile of lab4reg_ent.vhd was successful.
+# Compile of lab4reg_rtl.vhd was successful.
+# Compile of tb_lab4_beh.vhd failed with 2 errors.
+# 5 compiles, 2 failed with 4 errors.
+# Compile of clkdiv_ent.vhd was successful.
+# Compile of clkdiv_rtl.vhd was successful.
+# Compile of cru_ent.vhd was successful.
+# Compile of cru_str.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of lab4_pck.vhd was successful.
+# Compile of lab4_top_ent.vhd was successful.
+# Compile of lab4_top_str.vhd was successful.
+# Compile of lab4processor_ent.vhd was successful.
+# Compile of lab4reg_ent.vhd was successful.
+# Compile of lab4reg_rtl.vhd was successful.
+# Compile of motor_ent.vhd was successful.
+# Compile of p_ctrl_ent.vhd was successful.
+# Compile of p_ctrl_rtl.vhd was successful.
+# Compile of pos_ctrl_ent.vhd was successful.
+# Compile of pos_ctrl_rtl.vhd was successful.
+# Compile of pos_meas_ent.vhd was successful.
+# Compile of pos_meas_rtl.vhd was successful.
+# Compile of pos_seg7_ctrl_ent.vhd was successful.
+# Compile of pos_seg7_ctrl_str.vhd was successful.
+# Compile of rstsynch_ent.vhd was successful.
+# Compile of rstsynch_rtl.vhd was successful.
+# Compile of seg7ctrl_ent.vhd was successful.
+# Compile of subprog_pck.vhd was successful.
+# Compile of timer.vhd was successful.
+# Compile of axi4pifb_ent.vhd was successful.
+# Compile of axi4pifb_rtl.vhd was successful.
+# Compile of motor_beh.vhd was successful.
+# Compile of seg7ctrl_rtl.vhd was successful.
+# Compile of subprog_bdy.vhd was successful.
+# Compile of base_pck.vhd was successful.
+# Compile of lab4_tb_pck.vhd was successful.
+# Compile of tb_lab4_ent.vhd was successful.
+# Compile of lab4processor_dmy.vhd was successful.
+# Compile of base_bdy.vhd was successful.
+# Compile of lab4_tb_bdy.vhd was successful.
+# Compile of tb_lab4_beh.vhd failed.
+# Compile of tb_lab4_beh.vhd was successful.
+# Compile of tb_lab4_beh.vhd was successful.
+vsim -voptargs=+acc work.tb_lab4
+# vsim -voptargs="+acc" work.tb_lab4 
+# Start time: 13:32:10 on Oct 24,2018
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "axi4pifb(rtl)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std_developerskit.std_iopak(body)
+# Loading modelsim_lib.util(body)
+# Loading work.base_pck(body)
+# Loading work.lab4_tb_pck(body)
+# Loading work.lab4_pck
+# Loading work.tb_lab4(beh)#1
+# Loading work.motor(motor_beh)#1
+# Loading work.lab4_top(str)#1
+# Loading work.lab4processor(dmy)#1
+# Loading work.axi4pifb(rtl)#1
+# Loading work.lab4_reg(rtl)#1
+# Loading work.pos_seg7_ctrl(str)#1
+# Loading work.pos_ctrl(rtl)#1
+# Loading work.p_ctrl(rtl)#1
+# Loading work.pos_meas(rtl)#1
+# Loading work.subprog_pkg(body)
+# Loading work.seg7ctrl(rtl)#1
+# Loading work.timer(teller)#1
+# Loading work.decoder(arch)#1
+# Loading work.cru(str)#1
+# Loading unisim.bufg(bufg_v)#1
+# Loading work.rstsynch(rtl)#1
+# Loading work.clkdiv(rtl)#1
+run 1 ms
+# Compile of tb_lab4_beh.vhd failed with 4 errors.
+# Compile of tb_lab4_beh.vhd was successful.
+run 1 ms
+# ** Note: ERROR: Simulation failed! Number of errors: 7
+#    Time: 1001210 ns  Iteration: 0  Instance: /tb_lab4
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std_developerskit.std_iopak(body)
+# Loading modelsim_lib.util(body)
+# Loading work.base_pck(body)
+# Loading work.lab4_tb_pck(body)
+# Loading work.lab4_pck
+# Loading work.tb_lab4(beh)#1
+# Loading work.motor(motor_beh)#1
+# Loading work.lab4_top(str)#1
+# Loading work.lab4processor(dmy)#1
+# Loading work.axi4pifb(rtl)#1
+# Loading work.lab4_reg(rtl)#1
+# Loading work.pos_seg7_ctrl(str)#1
+# Loading work.pos_ctrl(rtl)#1
+# Loading work.p_ctrl(rtl)#1
+# Loading work.pos_meas(rtl)#1
+# Loading work.subprog_pkg(body)
+# Loading work.seg7ctrl(rtl)#1
+# Loading work.timer(teller)#1
+# Loading work.decoder(arch)#1
+# Loading work.cru(str)#1
+# Loading unisim.bufg(bufg_v)#1
+# Loading work.rstsynch(rtl)#1
+# Loading work.clkdiv(rtl)#1
+run 1 ms
+run 1 ns
+run 1 us
+run 1 ms
+# ** Note: ERROR: Simulation failed! Number of errors: 2
+#    Time: 1001790 ns  Iteration: 0  Instance: /tb_lab4
+# Compile of tb_lab4_beh.vhd was successful.
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std_developerskit.std_iopak(body)
+# Loading modelsim_lib.util(body)
+# Loading work.base_pck(body)
+# Loading work.lab4_tb_pck(body)
+# Loading work.lab4_pck
+# Loading work.tb_lab4(beh)#1
+# Loading work.motor(motor_beh)#1
+# Loading work.lab4_top(str)#1
+# Loading work.lab4processor(dmy)#1
+# Loading work.axi4pifb(rtl)#1
+# Loading work.lab4_reg(rtl)#1
+# Loading work.pos_seg7_ctrl(str)#1
+# Loading work.pos_ctrl(rtl)#1
+# Loading work.p_ctrl(rtl)#1
+# Loading work.pos_meas(rtl)#1
+# Loading work.subprog_pkg(body)
+# Loading work.seg7ctrl(rtl)#1
+# Loading work.timer(teller)#1
+# Loading work.decoder(arch)#1
+# Loading work.cru(str)#1
+# Loading unisim.bufg(bufg_v)#1
+# Loading work.rstsynch(rtl)#1
+# Loading work.clkdiv(rtl)#1
+run 1 ms
+run 1 ms
+# ** Note: ERROR: Simulation failed! Number of errors: 2
+#    Time: 1001790 ns  Iteration: 0  Instance: /tb_lab4
+add wave -position insertpoint  \
+sim:/tb_lab4/DUT/pifb_axi_aresetn \
+sim:/tb_lab4/DUT/pifb_axi_awaddr \
+sim:/tb_lab4/DUT/pifb_axi_awprot \
+sim:/tb_lab4/DUT/pifb_axi_awvalid \
+sim:/tb_lab4/DUT/pifb_axi_awready \
+sim:/tb_lab4/DUT/pifb_axi_wdata \
+sim:/tb_lab4/DUT/pifb_axi_wstrb \
+sim:/tb_lab4/DUT/pifb_axi_wvalid \
+sim:/tb_lab4/DUT/pifb_axi_wready \
+sim:/tb_lab4/DUT/pifb_axi_bresp \
+sim:/tb_lab4/DUT/pifb_axi_bvalid \
+sim:/tb_lab4/DUT/pifb_axi_bready \
+sim:/tb_lab4/DUT/pifb_axi_araddr \
+sim:/tb_lab4/DUT/pifb_axi_arprot \
+sim:/tb_lab4/DUT/pifb_axi_arvalid \
+sim:/tb_lab4/DUT/pifb_axi_arready \
+sim:/tb_lab4/DUT/pifb_axi_rdata \
+sim:/tb_lab4/DUT/pifb_axi_rresp \
+sim:/tb_lab4/DUT/pifb_axi_rvalid \
+sim:/tb_lab4/DUT/pifb_axi_rready \
+sim:/tb_lab4/DUT/rdata_lab4reg2pif \
+sim:/tb_lab4/DUT/mdata_lab4ram2pif \
+sim:/tb_lab4/DUT/ack_lab4reg2pif \
+sim:/tb_lab4/DUT/pif_memcs \
+sim:/tb_lab4/DUT/pif_regcs \
+sim:/tb_lab4/DUT/pif_addr \
+sim:/tb_lab4/DUT/pif_wdata \
+sim:/tb_lab4/DUT/pif_re \
+sim:/tb_lab4/DUT/pif_we \
+sim:/tb_lab4/DUT/pif_be \
+sim:/tb_lab4/DUT/pif_clk \
+sim:/tb_lab4/DUT/pif_rst \
+sim:/tb_lab4/DUT/rst_mclk_s1 \
+sim:/tb_lab4/DUT/rst_mclk_s2 \
+sim:/tb_lab4/DUT/setpoint \
+sim:/tb_lab4/DUT/sw_setpoint \
+sim:/tb_lab4/DUT/ps_setpoint \
+sim:/tb_lab4/DUT/setpoint_select
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run 1 us
+# Causality operation skipped due to absence of debug database file
+run 1 us
+add wave -position insertpoint  \
+sim:/tb_lab4/DUT/lab4_reg_0/reg32_i \
+sim:/tb_lab4/DUT/lab4_reg_0/reg16_i
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run 2 us
+# Compile of lab4_top_str.vhd was successful.
+# Compile of lab4reg_rtl.vhd was successful.
+# Compile of tb_lab4_beh.vhd was successful.
+# Compile of ram_lab4_rtl.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std_developerskit.std_iopak(body)
+# Loading modelsim_lib.util(body)
+# Loading work.base_pck(body)
+# Loading work.lab4_tb_pck(body)
+# Loading work.lab4_pck
+# Loading work.tb_lab4(beh)#1
+# Loading work.motor(motor_beh)#1
+# Loading work.lab4_top(str)#1
+# Loading work.lab4processor(dmy)#1
+# Loading work.axi4pifb(rtl)#1
+# Loading work.lab4_reg(rtl)#1
+# Loading work.ram_lab4(rtl)#1
+# Loading work.pos_seg7_ctrl(str)#1
+# Loading work.pos_ctrl(rtl)#1
+# Loading work.p_ctrl(rtl)#1
+# Loading work.pos_meas(rtl)#1
+# Loading work.subprog_pkg(body)
+# Loading work.seg7ctrl(rtl)#1
+# Loading work.timer(teller)#1
+# Loading work.decoder(arch)#1
+# Loading work.cru(str)#1
+# Loading unisim.bufg(bufg_v)#1
+# Loading work.rstsynch(rtl)#1
+# Loading work.clkdiv(rtl)#1
+run 1 ms
+run 1 ms
+# ** Note: Testbench simulation successful!
+#    Time: 1003470 ns  Iteration: 0  Instance: /tb_lab4
+# End time: 15:25:35 on Oct 24,2018, Elapsed time: 1:53:25
+# Errors: 0, Warnings: 1

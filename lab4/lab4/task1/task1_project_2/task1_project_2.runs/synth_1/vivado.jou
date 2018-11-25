@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Oct 20 18:06:51 2018
+# Process ID: 2693
+# Current directory: /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task1/task1_project_2/task1_project_2.runs/synth_1
+# Command line: vivado -log compute_pipelined.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source compute_pipelined.tcl
+# Log file: /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task1/task1_project_2/task1_project_2.runs/synth_1/compute_pipelined.vds
+# Journal file: /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task1/task1_project_2/task1_project_2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source compute_pipelined.tcl -notrace

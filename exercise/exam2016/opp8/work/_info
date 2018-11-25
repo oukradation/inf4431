@@ -1,0 +1,99 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/uio/hume/student-u41/wonhol/pc/work/inf4431/exercise/exam2016/opp7
+T_opt
+!s110 1543136534
+V0H0Q<ZSc`kPjB2PF`HgUO3
+04 7 9 work tb_opp8 testbench 1
+=2-186024f19992-5bfa6516-40ffe-6821
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.6c_1;65
+Etb_opp8
+Z0 w1543088010
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 d/uio/hume/student-u41/wonhol/pc/work/inf4431/exercise/exam2016/opp8
+Z4 8tb_opp8.vhd
+Z5 Ftb_opp8.vhd
+l0
+L4
+VN6EdZn5;G3;>mC^1jM]iO1
+!s100 Koic8Shn93UnL]lQEIShg1
+Z6 OL;C;10.6c_1;65
+33
+Z7 !s110 1543136527
+!i10b 1
+Z8 !s108 1543136526.000000
+Z9 !s90 -work|work|-2008|tb_opp8.vhd|
+Z10 !s107 tb_opp8.vhd|
+!i113 0
+Z11 o-work work -2008
+Z12 tExplicit 1 CvgOpt 0
+Atestbench
+R1
+R2
+DEx4 work 7 tb_opp8 0 22 N6EdZn5;G3;>mC^1jM]iO1
+l33
+L7
+VimSHZ8gj>Wo=@0SLON==D0
+!s100 IG_J6B<aR6I[J2aPmYmie1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etimecalc
+Z13 w1543136521
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z15 8opp8.vhd
+Z16 Fopp8.vhd
+l0
+L5
+VkI:3b641`zAl9W5P_SFc?2
+!s100 S;HHlg^0l7h:?I5A?MOlW1
+R6
+33
+Z17 !s110 1543136526
+!i10b 1
+R8
+Z18 !s90 -work|work|-2008|opp8.vhd|
+Z19 !s107 opp8.vhd|
+!i113 0
+R11
+R12
+Artl
+R14
+R1
+R2
+DEx4 work 8 timecalc 0 22 kI:3b641`zAl9W5P_SFc?2
+l25
+L20
+VOf16WN0dFF<o1aibWk@R;1
+!s100 L^Qh6@7^Ab^6R0;<JnJL;0
+R6
+33
+R17
+!i10b 1
+R8
+R18
+R19
+!i113 0
+R11
+R12

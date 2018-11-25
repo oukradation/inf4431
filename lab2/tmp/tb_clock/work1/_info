@@ -1,0 +1,101 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/tb_clock
+T_opt
+!s110 1537272106
+VK]U1[dB>[Q^da3__=<aXO1
+04 8 9 work tb_clock testbench 1
+=11-186024f15c72-5ba0e929-d762a-1355
+o-quiet -auto_acc_if_foreign -work work1
+tCvgOpt 0
+n@_opt
+OL;O;10.6c_1;65
+Eclock
+w1537255100
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8clock_ent.vhd
+Fclock_ent.vhd
+l0
+L4
+V2P6`]AA6To<bQA>1m8eHb3
+!s100 Wg1oR12H53oY4Djz?o`BK3
+Z3 OL;C;10.6c_1;65
+33
+Z4 !s110 1537272096
+!i10b 1
+Z5 !s108 1537272096.000000
+!s90 -work|work1|-2008|-explicit|-vopt|clock_ent.vhd|
+!s107 clock_ent.vhd|
+!i113 0
+Z6 o-work work1 -2008 -explicit
+Z7 tExplicit 1 CvgOpt 0
+Artl
+w1537272092
+DEx4 work 5 clock 0 22 2P6`]AA6To<bQA>1m8eHb3
+DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+8clock_rtl.vhd
+Fclock_rtl.vhd
+l25
+L6
+V0A5lK6;0oWb4le^HAlXWO1
+!s100 Ocfb8:2;2IDhEiICiWHkZ3
+R3
+33
+R4
+!i10b 1
+R5
+!s90 -work|work1|-2008|-explicit|-vopt|clock_rtl.vhd|
+!s107 clock_rtl.vhd|
+!i113 0
+R6
+R7
+Etb_clock
+Z8 w1537271399
+R1
+R2
+R0
+Z9 8tb_clock.vhd
+Z10 Ftb_clock.vhd
+l0
+L4
+VNoe]7lznFeen;QbNRb1=Q2
+!s100 S3>PRYNoN:][J4[dA2MFI3
+R3
+33
+R4
+!i10b 1
+R5
+Z11 !s90 -work|work1|-2008|-explicit|-vopt|tb_clock.vhd|
+Z12 !s107 tb_clock.vhd|
+!i113 0
+R6
+R7
+Atestbench
+R1
+R2
+DEx4 work 8 tb_clock 0 22 Noe]7lznFeen;QbNRb1=Q2
+l34
+L8
+VD7lXzWkYloeKoginUOP3k2
+!s100 [^;70de2RLS10E`QZ9McI1
+R3
+33
+R4
+!i10b 1
+R5
+R11
+R12
+!i113 0
+R6
+R7

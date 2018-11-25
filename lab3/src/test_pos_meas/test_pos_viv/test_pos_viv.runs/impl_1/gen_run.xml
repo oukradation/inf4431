@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1538395124">
+  <File Type="PWROPT-DRC" Name="test_pos_meas_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="test_pos_meas_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="test_pos_meas_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="test_pos_meas_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="test_pos_meas.tcl"/>
+  <File Type="OPT-HWDEF" Name="test_pos_meas.hwdef"/>
+  <File Type="RDI-RDI" Name="test_pos_meas.vdi"/>
+  <File Type="OPT-DCP" Name="test_pos_meas_opt.dcp"/>
+  <File Type="OPT-DRC" Name="test_pos_meas_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="test_pos_meas_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="test_pos_meas_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="test_pos_meas_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="test_pos_meas_placed.dcp"/>
+  <File Type="PLACE-IO" Name="test_pos_meas_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="test_pos_meas_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="test_pos_meas_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="test_pos_meas_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="test_pos_meas_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="test_pos_meas_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="test_pos_meas_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="test_pos_meas_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="test_pos_meas_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="test_pos_meas_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="test_pos_meas_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="test_pos_meas_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="test_pos_meas_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="test_pos_meas_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="test_pos_meas_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="test_pos_meas_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="test_pos_meas_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="test_pos_meas_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="test_pos_meas.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="test_pos_meas_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="test_pos_meas.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="test_pos_meas_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="test_pos_meas.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="test_pos_meas_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="test_pos_meas.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="test_pos_meas_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="test_pos_meas_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="test_pos_meas_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="test_pos_meas_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="test_pos_meas_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="test_pos_meas_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="test_pos_meas_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="test_pos_meas_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="test_pos_meas_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="test_pos_meas_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="test_pos_meas_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="test_pos_meas_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="test_pos_meas_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="test_pos_meas_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="test_pos_meas_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="test_pos_meas.bit"/>
+  <File Type="BITSTR-RBT" Name="test_pos_meas.rbt"/>
+  <File Type="BITSTR-NKY" Name="test_pos_meas.nky"/>
+  <File Type="BITSTR-BMM" Name="test_pos_meas_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="test_pos_meas.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="test_pos_meas.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../subprog_pck.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../pos_meas_ent.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../subprog_bdy.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../seg7ctrl_ent.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../decoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../timer.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../pos_meas_rtl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../seg7ctrl_rtl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../test_pos_meas.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="test_pos_meas"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/constraints.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

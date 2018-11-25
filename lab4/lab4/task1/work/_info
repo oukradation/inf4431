@@ -1,0 +1,209 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task1
+T_opt
+!s110 1540052546
+VeV9GPP4E_448F@Lg?_0A;3
+Z1 04 20 3 work tb_compute_pipelined beh 1
+=1-186024f15c72-5bcb5641-aae20-135b
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6c_1;65
+T_opt1
+!s110 1539806663
+VHoeH_dZIA90kIJ3d?]fRL0
+04 10 3 work tb_compute beh 1
+=1-842b2bffd5b4-5bc795c7-2bec4-12401
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1540049364
+Vmcidmj^K?N=<zbT47<2nn3
+R1
+=9-186024f15c72-5bcb49d3-c5fad-6588
+R4
+R2
+n@_opt2
+R3
+R0
+Ecompute
+w1539806010
+Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8compute_pipelined_ent.vhd
+Z9 Fcompute_pipelined_ent.vhd
+l0
+L5
+Vm@j=>Ujk@]<0Pf3DAN43N2
+!s100 6^iKlNAzE23W5jB``XHYN1
+Z10 OL;C;10.6c_1;65
+33
+!s110 1539809621
+!i10b 1
+!s108 1539809621.000000
+Z11 !s90 -work|work|-2008|-explicit|-vopt|compute_pipelined_ent.vhd|
+Z12 !s107 compute_pipelined_ent.vhd|
+!i113 0
+Z13 o-work work -2008 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Artl
+w1536050546
+DEx4 work 7 compute 0 22 m@j=>Ujk@]<0Pf3DAN43N2
+R5
+R6
+R7
+8compute_rtl.vhd
+Fcompute_rtl.vhd
+l6
+L5
+V;JbLfO^3nXgGZKUDG`4i[0
+!s100 H>b@j]nJW78JFl_Eb:Uch3
+R10
+33
+Z15 !s110 1539806390
+!i10b 1
+Z16 !s108 1539806390.000000
+!s90 -work|work|-2008|-explicit|-vopt|compute_rtl.vhd|
+!s107 compute_rtl.vhd|
+!i113 0
+R13
+R14
+Ecompute_pipelined
+w1539809641
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L5
+V=;=i<m4QVadQZ_;4I?5o73
+!s100 f0dFeIB<@<FhFaCJjDl1B2
+R10
+33
+Z17 !s110 1540049358
+!i10b 1
+Z18 !s108 1540049358.000000
+R11
+R12
+!i113 0
+R13
+R14
+Artl
+w1540049355
+DEx4 work 17 compute_pipelined 0 22 =;=i<m4QVadQZ_;4I?5o73
+R5
+R6
+R7
+8compute_pipelined_rtl.vhd
+Fcompute_pipelined_rtl.vhd
+l11
+L5
+V6OkHzJGc_7nZAc:L=IEWl2
+!s100 7Ch4RG>TE`US3I=92DUGf0
+R10
+33
+R17
+!i10b 1
+R18
+!s90 -work|work|-2008|-explicit|-vopt|compute_pipelined_rtl.vhd|
+!s107 compute_pipelined_rtl.vhd|
+!i113 0
+R13
+R14
+Etb_compute
+Z19 w1536059918
+R5
+R6
+R7
+R0
+Z20 8tb_compute.vhd
+Z21 Ftb_compute.vhd
+l0
+L6
+VG`bIL292W;ig:J;Y:9RUZ3
+!s100 UaAj`Fg73bXgz4@dC>4dW2
+R10
+33
+R15
+!i10b 1
+R16
+Z22 !s90 -work|work|-2008|-explicit|-vopt|tb_compute.vhd|
+Z23 !s107 tb_compute.vhd|
+!i113 0
+R13
+R14
+Abeh
+R5
+R6
+R7
+DEx4 work 10 tb_compute 0 22 G`bIL292W;ig:J;Y:9RUZ3
+l39
+L10
+Vii0DakH44>m=<d`YbXeZZ1
+!s100 59cm^Z@93<3<2[UWT70De2
+R10
+33
+R15
+!i10b 1
+R16
+R22
+R23
+!i113 0
+R13
+R14
+Etb_compute_pipelined
+Z24 w1540047679
+R5
+R6
+R7
+R0
+Z25 8tb_compute_pipelined.vhd
+Z26 Ftb_compute_pipelined.vhd
+l0
+L6
+VX5@nca=nMm]:oIPKS=91c3
+!s100 oU[J7`h:kO5g9fV<1K<1V0
+R10
+33
+Z27 !s110 1540049359
+!i10b 1
+R18
+Z28 !s90 -work|work|-2008|-explicit|-vopt|tb_compute_pipelined.vhd|
+Z29 !s107 tb_compute_pipelined.vhd|
+!i113 0
+R13
+R14
+Abeh
+R5
+R6
+R7
+DEx4 work 20 tb_compute_pipelined 0 22 X5@nca=nMm]:oIPKS=91c3
+l39
+L10
+VhI^lX0c:ZIBgC7nzmXoP<2
+!s100 EDNOn@LhCG>hOZD?U2Vem3
+R10
+33
+R27
+!i10b 1
+R18
+R28
+R29
+!i113 0
+R13
+R14

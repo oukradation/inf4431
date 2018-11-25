@@ -1,0 +1,299 @@
+/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package lab4_pck
+-- Compiling entity axi4pifb
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_rtl.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_rtl.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling architecture rtl of p_ctrl
+-- Loading entity p_ctrl
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/decoder.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/decoder.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DECODER
+-- Compiling architecture arch of DECODER
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/pr/ram_lab4/ram_lab4_sim_netlist.vhdl {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/pr/ram_lab4/ram_lab4_sim_netlist.vhdl
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ram_lab4_blk_mem_gen_prim_wrapper
+-- Compiling architecture STRUCTURE of ram_lab4_blk_mem_gen_prim_wrapper
+-- Compiling entity ram_lab4_blk_mem_gen_prim_width
+-- Compiling architecture STRUCTURE of ram_lab4_blk_mem_gen_prim_width
+-- Loading entity ram_lab4_blk_mem_gen_prim_wrapper
+-- Compiling entity ram_lab4_blk_mem_gen_generic_cstr
+-- Compiling architecture STRUCTURE of ram_lab4_blk_mem_gen_generic_cstr
+-- Loading entity ram_lab4_blk_mem_gen_prim_width
+-- Compiling entity ram_lab4_blk_mem_gen_top
+-- Compiling architecture STRUCTURE of ram_lab4_blk_mem_gen_top
+-- Loading entity ram_lab4_blk_mem_gen_generic_cstr
+-- Compiling entity ram_lab4_blk_mem_gen_v8_3_5_synth
+-- Compiling architecture STRUCTURE of ram_lab4_blk_mem_gen_v8_3_5_synth
+-- Loading entity ram_lab4_blk_mem_gen_top
+-- Compiling entity ram_lab4_blk_mem_gen_v8_3_5
+-- Compiling architecture STRUCTURE of ram_lab4_blk_mem_gen_v8_3_5
+-- Loading entity ram_lab4_blk_mem_gen_v8_3_5_synth
+-- Compiling entity ram_lab4
+-- Compiling architecture STRUCTURE of ram_lab4
+-- Loading entity ram_lab4_blk_mem_gen_v8_3_5
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/lab4_tb_pck.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/lab4_tb_pck.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package std_iopak
+-- Loading package base_pck
+-- Compiling package lab4_tb_pck
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/motor_beh.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/motor_beh.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling architecture motor_beh of motor
+-- Loading entity motor
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_pck.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_pck.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package subprog_pkg
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_rtl.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_rtl.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling architecture rtl of rstsynch
+-- Loading entity rstsynch
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/motor_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/motor_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity motor
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_rtl.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_rtl.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling architecture rtl of pos_meas
+-- Loading entity pos_meas
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/timer.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/timer.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TIMER
+-- Compiling architecture TELLER of TIMER
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pos_seg7_ctrl
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4processor_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4processor_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lab4processor
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity p_ctrl
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/base_bdy.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/base_bdy.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package std_iopak
+-- Compiling package body base_pck
+-- Loading package base_pck
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_str.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_str.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling architecture str of pos_seg7_ctrl
+-- Loading entity pos_seg7_ctrl
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_rtl.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_rtl.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package subprog_pkg
+-- Compiling architecture rtl of seg7ctrl
+-- Loading entity seg7ctrl
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity rstsynch
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pos_meas
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_rtl.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_rtl.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling architecture rtl of clkdiv
+-- Loading entity clkdiv
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_rtl.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_rtl.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling architecture rtl of pos_ctrl
+-- Loading entity pos_ctrl
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/lab4_tb_bdy.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/lab4_tb_bdy.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Compiling package body lab4_tb_pck
+-- Loading package std_iopak
+-- Loading package base_pck
+-- Loading package lab4_tb_pck
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/tb_lab4_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/tb_lab4_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package lab4_pck
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package std_iopak
+-- Loading package base_pck
+-- Loading package lab4_tb_pck
+-- Compiling entity tb_lab4
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_bdy.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_bdy.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Compiling package body subprog_pkg
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package subprog_pkg
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity cru
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity seg7ctrl
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/base_pck.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/base_pck.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package std_iopak
+-- Compiling package base_pck
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling architecture str of cru
+-- Loading entity cru
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity clkdiv
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package lab4_pck
+-- Compiling entity lab4_top
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4processor_dmy.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4processor_dmy.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package std_iopak
+-- Loading package base_pck
+-- Loading package lab4_tb_pck
+-- Compiling architecture dmy of lab4processor
+-- Loading entity lab4processor
+
+} {} {}} /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_ent.vhd {1 {vcom -work work -2008 -explicit -vopt -stats=none /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_ent.vhd
+QuestaSim-64 vcom 10.6c_1 Compiler 2017.09 Sep 15 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pos_ctrl
+
+} {} {}}

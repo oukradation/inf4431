@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Sep 19 14:15:39 2018
+# Process ID: 1079204
+# Current directory: M:/pc/work/inf4431/lab2/delivery/seg_2/seg_2.runs/impl_1
+# Command line: vivado.exe -log reg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source reg.tcl -notrace
+# Log file: M:/pc/work/inf4431/lab2/delivery/seg_2/seg_2.runs/impl_1/reg.vdi
+# Journal file: M:/pc/work/inf4431/lab2/delivery/seg_2/seg_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source reg.tcl -notrace

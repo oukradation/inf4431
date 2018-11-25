@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Sep 17 13:28:18 2018
+# Process ID: 56901
+# Current directory: /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery
+# Command line: vivado
+# Log file: /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/vivado.log
+# Journal file: /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project seg7 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7 -part xc7z020clg484-1
+add_files -norecurse {/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7model_beh.vhd /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/subprog_pck.vhd /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7ctrl_rtl.vhd /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7model_ent.vhd /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/subprog_bdy.vhd /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7ctrl_ent.vhd /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/decoder.vhd /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/timer.vhd}
+launch_runs synth_1 -jobs 32
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+synth_design -rtl -name rtl_1
+current_design synth_1
+add_files -norecurse {/uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/reg_str.vhd /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/regctrl_ent.vhd /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/reg_ent.vhd /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/regctrl_rtl.vhd}
+current_design rtl_1
+refresh_design
+set_property IOSTANDARD LVCMOS33 [get_ports [list {a_n[3]} {a_n[2]} {a_n[1]} {a_n[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {abcdefgdec_n[7]} {abcdefgdec_n[6]} {abcdefgdec_n[5]} {abcdefgdec_n[4]} {abcdefgdec_n[3]} {abcdefgdec_n[2]} {abcdefgdec_n[1]} {abcdefgdec_n[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {di[3]} {di[2]} {di[1]} {di[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {sel[1]} {sel[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list load]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list mclk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset]]
+set_property package_pin "" [get_ports [list  {abcdefgdec_n[1]}]]
+set_property package_pin "" [get_ports [list  {abcdefgdec_n[0]}]]
+set_property package_pin "" [get_ports [list  {abcdefgdec_n[0]}]]
+set_property target_language VHDL [current_project]
+set_property package_pin "" [get_ports [list  {abcdefgdec_n[0]}]]
+set_property package_pin "" [get_ports [list  {abcdefgdec_n[0]}]]
+set_property package_pin "" [get_ports [list  {abcdefgdec_n[1]}]]
+set_property package_pin "" [get_ports [list  load]]
+place_ports {abcdefgdec_n[0]} W8
+place_ports {abcdefgdec_n[7]} V12
+place_ports {abcdefgdec_n[6]} W12
+place_ports {abcdefgdec_n[5]} W10
+place_ports {abcdefgdec_n[4]} W11
+place_ports {abcdefgdec_n[3]} V9
+place_ports {abcdefgdec_n[2]} V10
+place_ports {abcdefgdec_n[1]} V8
+place_ports {a_n[0]} AA8
+place_ports {a_n[1]} AB9
+place_ports {a_n[2]} AB10
+place_ports {a_n[3]} AB11
+set_property package_pin "" [get_ports [list  mclk]]
+place_ports load N15
+place_ports reset R18
+place_ports {sel[1]} M15
+place_ports {sel[0]} H17
+place_ports {di[0]} F22
+place_ports {di[1]} G22
+place_ports {di[2]} H22
+place_ports {di[3]} H19
+set_property package_pin "" [get_ports [list  mclk]]
+place_ports mclk Y9
+file mkdir /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7/seg7.srcs/constrs_1/new
+close [ open /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7/seg7.srcs/constrs_1/new/constraints.xdc w ]
+add_files -fileset constrs_1 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7/seg7.srcs/constrs_1/new/constraints.xdc
+set_property target_constrs_file /uio/hume/student-u41/wonhol/pc/work/inf4431/lab2/delivery/seg7/seg7.srcs/constrs_1/new/constraints.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 32
+wait_on_run synth_1
+current_design synth_1
+close_design
+open_run synth_1 -name synth_1
+create_clock -period 10.000 -waveform {0.000 5.000} [get_ports mclk]
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 32
+wait_on_run synth_1
+launch_runs impl_1 -jobs 32
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 32
+wait_on_run impl_1
+open_hw

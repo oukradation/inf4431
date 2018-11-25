@@ -1,0 +1,1193 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/sim
+T_opt
+!s110 1540823977
+V7jRNR]L@YJ@Ve4Zl?]KNb3
+04 7 3 work tb_lab4 beh 1
+=4-b8ac6fd26ba0-5bd71ba8-63593-1813
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.6c_1;65
+Eaxi4pifb
+Z1 w1508664042
+Z2 DPx4 work 8 lab4_pck 0 22 oGF=KCA08Y0hOYkQCfT431
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_ent.vhd
+l0
+L9
+VT]F>`IP?8J_bTPJE@45n_1
+!s100 a>2[f9R`n0BWh8CD6N`_m2
+Z6 OL;C;10.6c_1;65
+33
+Z7 !s110 1540821954
+!i10b 1
+Z8 !s108 1540821954.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_ent.vhd|
+!i113 0
+Z9 o-work work -2008 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Artl
+DEx4 work 8 axi4pifb 0 22 T]F>`IP?8J_bTPJE@45n_1
+R2
+R3
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_rtl.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_rtl.vhd
+l50
+L9
+V9_;FnNJ:eKQ8Obe^EadMX2
+!s100 6jPK9jdg_1m:M@QFRc;LW1
+R6
+33
+Z11 !s110 1540821955
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_rtl.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_rtl.vhd|
+!i113 0
+R9
+R10
+Pbase_pck
+Z12 DPx17 std_developerskit 9 std_iopak 0 22 TIEH2DXm]ZmCF5gcNZM2b2
+Z13 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R3
+R5
+R4
+Z14 w1508664044
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/base_pck.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/base_pck.vhd
+l0
+L14
+VUJ]3^F1SRBz51=WEn]O2@0
+!s100 ZA0Oazam73DZo_WBcj[>b1
+R6
+33
+b1
+Z15 !s110 1540821956
+!i10b 1
+Z16 !s108 1540821955.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/base_pck.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/base_pck.vhd|
+!i113 0
+R9
+R10
+Bbody
+Z17 DPx4 work 8 base_pck 0 22 UJ]3^F1SRBz51=WEn]O2@0
+R12
+R13
+R3
+R5
+R4
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/base_bdy.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/base_bdy.vhd
+l0
+L11
+V[cG5]DcTG2Ce3f[=oofUH3
+!s100 [5bcbk]6:M0Z`R5C7_TbY1
+R6
+33
+Z18 !s110 1540821957
+!i10b 1
+Z19 !s108 1540821956.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/base_bdy.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/base_bdy.vhd|
+!i113 0
+R9
+R10
+Eclkdiv
+Z20 w1540232653
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_ent.vhd
+l0
+L4
+V[6Qk`;RgEl_AV]FbBfCbX3
+!s100 UzdHS=<[4K=74IV0;I2=^1
+R6
+33
+Z21 !s110 1540821949
+!i10b 1
+Z22 !s108 1540821949.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_ent.vhd|
+!i113 0
+R9
+R10
+Artl
+DEx4 work 6 clkdiv 0 22 [6Qk`;RgEl_AV]FbBfCbX3
+R3
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_rtl.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_rtl.vhd
+l9
+L5
+V5;`dbB<ID1@6c2D1MB?>H3
+!s100 H;8Ld>AdOjb?QF8e1T=931
+R6
+33
+R21
+!i10b 1
+R22
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_rtl.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_rtl.vhd|
+!i113 0
+R9
+R10
+Ecru
+Z23 w1540232629
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_ent.vhd
+l0
+L4
+Vh2znMN6z:N=nCDNSzRl8X0
+!s100 XA;GT>CU@I]QHICc0b3L`0
+R6
+33
+R21
+!i10b 1
+R22
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_ent.vhd|
+!i113 0
+R9
+R10
+Astr
+DEx4 work 3 cru 0 22 h2znMN6z:N=nCDNSzRl8X0
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd
+l43
+L6
+V3Fgk[OccCQJ]_N9en0U1M1
+!s100 <YW6lh8>:d^o=F>POT9l30
+R6
+33
+Z24 !s110 1540821950
+!i10b 1
+R22
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd|
+!i113 0
+R9
+R10
+Edecoder
+Z25 w1540054195
+R4
+R5
+R0
+Z26 8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/decoder.vhd
+Z27 F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/decoder.vhd
+l0
+L5
+V`i=0C=aDWZ7L3zjYJ=SDM2
+!s100 m8J=b`:0SOfo2^jNJ`=lz3
+R6
+33
+R24
+!i10b 1
+Z28 !s108 1540821950.000000
+Z29 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/decoder.vhd|
+Z30 !s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/decoder.vhd|
+!i113 0
+R9
+R10
+Aarch
+R4
+R5
+DEx4 work 7 decoder 0 22 `i=0C=aDWZ7L3zjYJ=SDM2
+l17
+L15
+Vl^FWnYEoD4F^mifiU65IL0
+!s100 ccZ24fo@bmf2<;Lodkf_f0
+R6
+33
+R24
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R9
+R10
+Plab4_pck
+R4
+R5
+w1540379084
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_pck.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_pck.vhd
+l0
+L5
+VoGF=KCA08Y0hOYkQCfT431
+!s100 @;e@TgjV1DNb@DGG?@ZbE2
+R6
+33
+R24
+!i10b 1
+R28
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_pck.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_pck.vhd|
+!i113 0
+R9
+R10
+Elab4_reg
+w1540818725
+R2
+R3
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_ent.vhd
+l0
+L9
+VcAznHfj5X?c<hH^nG2U153
+!s100 AVSiY2ZO@5KPZkR1nenY?2
+R6
+33
+Z31 !s110 1540821951
+!i10b 1
+Z32 !s108 1540821951.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_ent.vhd|
+!i113 0
+R9
+R10
+Artl
+w1540818826
+DEx4 work 8 lab4_reg 0 22 cAznHfj5X?c<hH^nG2U153
+R2
+R3
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_rtl.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_rtl.vhd
+l26
+L10
+VW9lWzVSYoI0^]YGXcg1710
+!s100 ?K9gDh5[bjUFFeWBRo_ik2
+R6
+33
+R31
+!i10b 1
+R32
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_rtl.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_rtl.vhd|
+!i113 0
+R9
+R10
+Plab4_tb_pck
+R12
+R13
+R17
+R3
+R4
+R5
+R14
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/lab4_tb_pck.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/lab4_tb_pck.vhd
+l0
+L9
+Vz8lPcJE^4Ef<6iW95Y`533
+!s100 _YF?TD9MC;QWDI9O1WXaO2
+R6
+33
+b1
+R15
+!i10b 1
+R19
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/lab4_tb_pck.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/lab4_tb_pck.vhd|
+!i113 0
+R9
+R10
+Bbody
+Z33 DPx4 work 11 lab4_tb_pck 0 22 z8lPcJE^4Ef<6iW95Y`533
+R12
+R13
+R17
+R3
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/lab4_tb_bdy.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/lab4_tb_bdy.vhd
+l0
+L8
+V5`bI3`P_E<RC2>5<nho8U3
+!s100 M?UO@T]=0C2W=1h1Q=CC40
+R6
+33
+R18
+!i10b 1
+Z34 !s108 1540821957.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/lab4_tb_bdy.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/lab4_tb_bdy.vhd|
+!i113 0
+R9
+R10
+Elab4_top
+R1
+R2
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_ent.vhd
+l0
+L30
+VS:RG]fXSleX`B`=CI^SL60
+!s100 mH=_QgB3QZb_n_EJ?i[0L2
+R6
+33
+R24
+!i10b 1
+R28
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_ent.vhd|
+!i113 0
+R9
+R10
+Astr
+w1540822035
+DEx4 work 8 lab4_top 0 22 S:RG]fXSleX`B`=CI^SL60
+R3
+R2
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd
+l236
+L17
+VJLz7no1Jh61eKi4YK0Y1X1
+!s100 TL]@c1bkGSLika29^`z8P1
+R6
+33
+!s110 1540822039
+!i10b 1
+!s108 1540822039.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd|
+!i113 0
+R9
+R10
+Elab4processor
+R1
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4processor_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4processor_ent.vhd
+l0
+L4
+VePCo2g9k524O4Ia5T>A_H3
+!s100 ?Q<H][MJnUU7hn^@aC51K3
+R6
+33
+R31
+!i10b 1
+R28
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4processor_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4processor_ent.vhd|
+!i113 0
+R9
+R10
+Admy
+DEx4 work 13 lab4processor 0 22 ePCo2g9k524O4Ia5T>A_H3
+R33
+R12
+R13
+R3
+R17
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4processor_dmy.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4processor_dmy.vhd
+l13
+L9
+VAK7Q1^n<YUV>;>iEDHVmm0
+!s100 M^z_OJS;=jmBOl0jf:IaZ0
+R6
+33
+R15
+!i10b 1
+R19
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4processor_dmy.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4processor_dmy.vhd|
+!i113 0
+R9
+R10
+Emotor
+R14
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/motor_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/motor_ent.vhd
+l0
+L4
+Ven;]N45]ag81OeLc[aWBA0
+!s100 =ZEIOmK4m5FMKhd2F]6P_3
+R6
+33
+R31
+!i10b 1
+R32
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/motor_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/motor_ent.vhd|
+!i113 0
+R9
+R10
+Amotor_beh
+DEx4 work 5 motor 0 22 en;]N45]ag81OeLc[aWBA0
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/motor_beh.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/motor_beh.vhd
+l6
+L4
+Vj5FFQB[];9`ZNYl?YPSGd1
+!s100 Fe?ZC062LbK6JzjEiYZSY1
+R6
+33
+R11
+!i10b 1
+R16
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/motor_beh.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/motor_beh.vhd|
+!i113 0
+R9
+R10
+Ep_ctrl
+Z35 w1540232801
+R3
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_ent.vhd
+l0
+L5
+VC_9i:9R;GIe9eTSE5kddE1
+!s100 Rfiz586G065iZElRVd2X]3
+R6
+33
+R31
+!i10b 1
+R32
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_ent.vhd|
+!i113 0
+R9
+R10
+Artl
+DEx4 work 6 p_ctrl 0 22 C_9i:9R;GIe9eTSE5kddE1
+R3
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_rtl.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_rtl.vhd
+l18
+L5
+VYjJ?OZ4CmC@2cNJj1cj]R2
+!s100 dfN8@eL]V=V:^:5^^?nkX3
+R6
+33
+Z36 !s110 1540821952
+!i10b 1
+R32
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_rtl.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_rtl.vhd|
+!i113 0
+R9
+R10
+Epos_ctrl
+Z37 w1540232820
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_ent.vhd
+l0
+L4
+Va6XSC6Y=LW>B?_2dcBdoe1
+!s100 ke6SKR5BcFf^445Xj_fK90
+R6
+33
+R36
+!i10b 1
+Z38 !s108 1540821952.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_ent.vhd|
+!i113 0
+R9
+R10
+Artl
+DEx4 work 8 pos_ctrl 0 22 a6XSC6Y=LW>B?_2dcBdoe1
+R3
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_rtl.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_rtl.vhd
+l34
+L5
+V5P:WojNV3iRgcnBh6gA7;3
+!s100 U]e8R1Kl[Tj`hZ2i_ec=W2
+R6
+33
+R36
+!i10b 1
+R38
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_rtl.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_rtl.vhd|
+!i113 0
+R9
+R10
+Epos_meas
+Z39 w1540232796
+R3
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_ent.vhd
+l0
+L5
+V_dGdg[jjngb7`L]4oUm^X3
+!s100 J:gVf;B`K;d[8IQC1:YYF0
+R6
+33
+R36
+!i10b 1
+R38
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_ent.vhd|
+!i113 0
+R9
+R10
+Artl
+DEx4 work 8 pos_meas 0 22 _dGdg[jjngb7`L]4oUm^X3
+R3
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_rtl.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_rtl.vhd
+l22
+L5
+VTe>PElJdW4[LdH^kG0YA]1
+!s100 [n19;j[[mn^mO<a5Eh2`21
+R6
+33
+Z40 !s110 1540821953
+!i10b 1
+R38
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_rtl.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_rtl.vhd|
+!i113 0
+R9
+R10
+Epos_seg7_ctrl
+Z41 w1540054522
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_ent.vhd
+l0
+L4
+V:ggk@[;ABKPXXYH``YXZf2
+!s100 jFf_@JMPh>UHzH@Y_lD=U0
+R6
+33
+R40
+!i10b 1
+Z42 !s108 1540821953.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_ent.vhd|
+!i113 0
+R9
+R10
+Astr
+DEx4 work 13 pos_seg7_ctrl 0 22 :ggk@[;ABKPXXYH``YXZf2
+R3
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_str.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_str.vhd
+l69
+L5
+V94ooZ6YbYcMZfojC>?OjB3
+!s100 bl`5>3jo]:<37]EUcUVzi2
+R6
+33
+R40
+!i10b 1
+R42
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_str.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_str.vhd|
+!i113 0
+R9
+R10
+Eram_lab4
+Z43 w1540820878
+Z44 DPx6 unisim 11 vcomponents 0 22 bm9l`@>EljDehV1AYNbEA2
+R4
+R5
+R0
+Z45 8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/pr/ram_lab4/ram_lab4_sim_netlist.vhdl
+Z46 F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/pr/ram_lab4/ram_lab4_sim_netlist.vhdl
+l0
+L742
+VC<1APD7L=`FV2;0iZ7Cj=0
+!s100 :<LKWUCb<FD`f96oMEJ?k2
+R6
+33
+Z47 !s110 1540821958
+!i10b 1
+R34
+Z48 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/pr/ram_lab4/ram_lab4_sim_netlist.vhdl|
+Z49 !s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/pr/ram_lab4/ram_lab4_sim_netlist.vhdl|
+!i113 0
+R9
+R10
+Astructure
+Z50 DEx4 work 27 ram_lab4_blk_mem_gen_v8_3_5 0 22 D_L]BGQJmo;C7kghG7;1e1
+R44
+R4
+R5
+DEx4 work 8 ram_lab4 0 22 C<1APD7L=`FV2;0iZ7Cj=0
+l930
+L762
+VeghE5_?f:NQ:oKhNz:fdo3
+!s100 9hW817lg1Eh_=G52_2L2_1
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Artl
+R3
+R4
+R5
+DEx4 work 8 ram_lab4 0 22 3LgNL@fIzE^k?GmiiRT^@2
+l19
+L18
+V>3ldBhTK2okB0L<9L<N0<3
+!s100 nz?4_2^YlRQjBQ]6[VS2c1
+R6
+33
+!s110 1540383397
+!i10b 1
+!s108 1540383396.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/ram_model/ram_lab4_rtl.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/ram_model/ram_lab4_rtl.vhd|
+!i113 0
+R9
+R10
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/ram_model/ram_lab4_rtl.vhd
+R14
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/ram_model/ram_lab4_rtl.vhd
+Eram_lab4_blk_mem_gen_generic_cstr
+R43
+R44
+R4
+R5
+R0
+R45
+R46
+l0
+L301
+V@m2nNkZNL33k^nj`B;5gF1
+!s100 8zJc2fEMXNki;nhN=6AM91
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Astructure
+Z51 DEx4 work 31 ram_lab4_blk_mem_gen_prim_width 0 22 LlcGcn4=P1LRY1IQ:K9OX3
+R44
+R4
+R5
+Z52 DEx4 work 33 ram_lab4_blk_mem_gen_generic_cstr 0 22 @m2nNkZNL33k^nj`B;5gF1
+l316
+L315
+VFK`cS6SI[PdRFL4jP=H_12
+!s100 g72Ya;L7X9Kg@Gczg`R1O0
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Eram_lab4_blk_mem_gen_prim_width
+R43
+R44
+R4
+R5
+R0
+R45
+R46
+l0
+L270
+VLlcGcn4=P1LRY1IQ:K9OX3
+!s100 ^2m9]jCIlodW>B_a^Uj<D0
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Astructure
+Z53 DEx4 work 33 ram_lab4_blk_mem_gen_prim_wrapper 0 22 M<IQKjU[ElYb[h3h?]m`c2
+R44
+R4
+R5
+R51
+l285
+L284
+VBA3@^gHTzSi8R^VG<`RM^0
+!s100 _S1gj]nQbO;WTX@e>AklN2
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Eram_lab4_blk_mem_gen_prim_wrapper
+R43
+R44
+R4
+R5
+R0
+R45
+R46
+l0
+L16
+VM<IQKjU[ElYb[h3h?]m`c2
+!s100 JB5TPPlQU^kA3;doM>5i;1
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Astructure
+R44
+R4
+R5
+R53
+l47
+L30
+VTb4:dJ_Lf[c9hgQPJTk:Y0
+!s100 >JO7445=Gzg6HIO@3kczN0
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Eram_lab4_blk_mem_gen_top
+R43
+R44
+R4
+R5
+R0
+R45
+R46
+l0
+L332
+V[VcEnT0m5_CNTl[ADYQl53
+!s100 [3g]_UFFhOC>NARVGVaa73
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Astructure
+R52
+R44
+R4
+R5
+Z54 DEx4 work 24 ram_lab4_blk_mem_gen_top 0 22 [VcEnT0m5_CNTl[ADYQl53
+l347
+L346
+VL<AYR>QPeDd9l4KAD_;RM2
+!s100 [JI^W1MjzHoA>bNW<lClA2
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Eram_lab4_blk_mem_gen_v8_3_5
+R43
+R44
+R4
+R5
+R0
+R45
+R46
+l0
+L394
+VD_L]BGQJmo;C7kghG7;1e1
+!s100 cWm5VO2Fe3R?AJjJ^^>^B2
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Astructure
+Z55 DEx4 work 33 ram_lab4_blk_mem_gen_v8_3_5_synth 0 22 ibiG3zFkhI579jYCZE74c2
+R44
+R4
+R5
+R50
+l614
+L612
+VX[h^VXkVDJjDT`A3PTMAR1
+!s100 TMaAh9hS0I?`fYm3ga8@T1
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Eram_lab4_blk_mem_gen_v8_3_5_synth
+R43
+R44
+R4
+R5
+R0
+R45
+R46
+l0
+L363
+VibiG3zFkhI579jYCZE74c2
+!s100 olV1^W5h6U2dI7c]nOECZ1
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Astructure
+R54
+R44
+R4
+R5
+R55
+l378
+L377
+VC>_niZ46bRokDM?cI<0^`2
+!s100 V9^eJRCU`V7R:6AI:^`Gm2
+R6
+33
+R47
+!i10b 1
+R34
+R48
+R49
+!i113 0
+R9
+R10
+Erstsynch
+Z56 w1540232647
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_ent.vhd
+l0
+L4
+V6zhDc9COog;BYbJ_A3ob`2
+!s100 ;5O33S:2h^V0o`<?W3]5f2
+R6
+33
+R40
+!i10b 1
+R42
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_ent.vhd|
+!i113 0
+R9
+R10
+Artl
+DEx4 work 8 rstsynch 0 22 6zhDc9COog;BYbJ_A3ob`2
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_rtl.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_rtl.vhd
+l9
+L4
+V`S1US1nKk8b7Q`F:_RZT51
+!s100 a[2zE4FoaICPb:E[FfhGB0
+R6
+33
+R40
+!i10b 1
+R42
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_rtl.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_rtl.vhd|
+!i113 0
+R9
+R10
+Eseg7ctrl
+Z57 w1540054160
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_ent.vhd
+l0
+L4
+Va5FH>ngB`P0<RZP6=4^JJ1
+!s100 ilZ3:6g`PLUlRR=f_a6Zm3
+R6
+33
+R7
+!i10b 1
+R42
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_ent.vhd|
+!i113 0
+R9
+R10
+Artl
+DEx4 work 8 seg7ctrl 0 22 a5FH>ngB`P0<RZP6=4^JJ1
+R3
+Z58 DPx4 work 11 subprog_pkg 0 22 WXf4Fo_1oDbWUO2OSXgGa0
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_rtl.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_rtl.vhd
+l33
+L5
+VZfQSh1`7mF9B2Bo_hDIlN2
+!s100 F6Hl]cQR^:BhPBJR>>Zej1
+R6
+33
+R11
+!i10b 1
+R16
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_rtl.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_rtl.vhd|
+!i113 0
+R9
+R10
+Psubprog_pkg
+R3
+R4
+R5
+Z59 w1540054204
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_pck.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_pck.vhd
+l0
+L5
+VWXf4Fo_1oDbWUO2OSXgGa0
+!s100 :KdCZQLddfB=PEg@oVK_V2
+R6
+33
+b1
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_pck.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_pck.vhd|
+!i113 0
+R9
+R10
+Bbody
+R58
+R3
+R4
+R5
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_bdy.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_bdy.vhd
+l0
+L1
+V27nRo7<?UIhiA6HM?7Zle1
+!s100 fe=gJfO4R:7h6WlUBb6U52
+R6
+33
+R11
+!i10b 1
+R16
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_bdy.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_bdy.vhd|
+!i113 0
+R9
+R10
+Etb_lab4
+R14
+R12
+R13
+R17
+R3
+R33
+R2
+R4
+R5
+R0
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/tb_lab4_ent.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/tb_lab4_ent.vhd
+l0
+L12
+Vk?nONVAoWN<4e3D>aODAJ1
+!s100 0W2blKm3NcJBH[zH1zJ6R0
+R6
+33
+R15
+!i10b 1
+R19
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/tb_lab4_ent.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/tb_lab4_ent.vhd|
+!i113 0
+R9
+R10
+Abeh
+w1540823958
+DEx4 work 7 tb_lab4 0 22 k?nONVAoWN<4e3D>aODAJ1
+R2
+R33
+R17
+DPx12 modelsim_lib 4 util 0 22 I9VUm]?fD[2nYZzgoDM?l2
+R12
+R13
+R3
+R5
+DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R4
+8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/tb_lab4_beh.vhd
+F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/tb_lab4_beh.vhd
+l118
+L23
+VQm5]23GX_I_];1ldY;<JC3
+!s100 YL2]PhN]o@^iVRf7Yb<md3
+R6
+33
+!s110 1540823968
+!i10b 1
+!s108 1540823968.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/tb_lab4_beh.vhd|
+!s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/tb/tb_lab4_beh.vhd|
+!i113 0
+R9
+R10
+Etimer
+Z60 w1540054191
+R3
+R4
+R5
+R0
+Z61 8/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/timer.vhd
+Z62 F/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/timer.vhd
+l0
+L6
+VjQVnWDfdBfGlZeViYgGI62
+!s100 M5n5C2WB4]08_iC0Q7[1I1
+R6
+33
+R7
+!i10b 1
+R8
+Z63 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/timer.vhd|
+Z64 !s107 /uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/timer.vhd|
+!i113 0
+R9
+R10
+Ateller
+R3
+R4
+R5
+DEx4 work 5 timer 0 22 jQVnWDfdBfGlZeViYgGI62
+l19
+L16
+VOiHZ=<@@YJ_[EWbUoJejT2
+!s100 c@6ilfBM3cQZ<4nMYWhbU0
+R6
+33
+R7
+!i10b 1
+R8
+R63
+R64
+!i113 0
+R9
+R10

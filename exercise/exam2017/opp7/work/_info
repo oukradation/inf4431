@@ -1,0 +1,97 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/uio/hume/student-u41/wonhol/pc/work/inf4431/exercise/exam2017/opp7
+T_opt
+!s110 1542796983
+VHiZmY0=H7kIGg<SCo=8Xn1
+04 7 9 work tb_lfsr testbench 1
+=6-186024f19992-5bf536b7-5a1fd-554b
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.6c_1;65
+Elfsr
+Z1 w1542796959
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8opp7.vhd
+Z5 Fopp7.vhd
+l0
+L4
+V?I;@9=Y8CTXTFjzXbRcgn3
+!s100 1c2JGIcJ:mecG0=ia;1^81
+Z6 OL;C;10.6c_1;65
+33
+Z7 !s110 1542796962
+!i10b 1
+Z8 !s108 1542796962.000000
+Z9 !s90 -work|work|-2008|opp7.vhd|
+Z10 !s107 opp7.vhd|
+!i113 0
+Z11 o-work work -2008
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+DEx4 work 4 lfsr 0 22 ?I;@9=Y8CTXTFjzXbRcgn3
+l21
+L17
+VNdGz>z1>;EP?15CaSazhh0
+!s100 F]SX@T3RU1G@PBjM5_>N70
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etb_lfsr
+Z13 w1542795360
+R2
+R3
+R0
+Z14 8tb_opp7.vhd
+Z15 Ftb_opp7.vhd
+l0
+L4
+VP85aKQ:MoGSz4nb8HYO8Q2
+!s100 C=:]TISkg7G8nDH3PJLQL0
+R6
+33
+R7
+!i10b 1
+R8
+Z16 !s90 -work|work|-2008|tb_opp7.vhd|
+Z17 !s107 tb_opp7.vhd|
+!i113 0
+R11
+R12
+Atestbench
+R2
+R3
+DEx4 work 7 tb_lfsr 0 22 P85aKQ:MoGSz4nb8HYO8Q2
+l29
+L7
+V2ONnO]7X:H[05S9DE^aan2
+!s100 ;O>dDJlH17@[h1EMkH?^d0
+R6
+33
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 0
+R11
+R12

@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file M:\pc\work\inf4431\lab3\src\viv_oppg6\viv_oppg6.runs\impl_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied

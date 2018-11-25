@@ -1,0 +1,5 @@
+verilog xil_defaultlib "../../../../ram_lab4/sim/ram_lab4.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

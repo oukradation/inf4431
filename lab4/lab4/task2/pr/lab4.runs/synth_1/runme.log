@@ -1,0 +1,1014 @@
+
+*** Running vivado
+    with args -log lab4_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab4_top.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source lab4_top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+Command: synth_design -top lab4_top -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1824268 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 328.949 ; gain = 118.281
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'lab4_top' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd:17]
+INFO: [Synth 8-3491] module 'design_1_wrapper' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:14' bound to instance 'lab4processor_0' of component 'design_1_wrapper' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd:254]
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:61]
+INFO: [Synth 8-3491] module 'design_1' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:591' bound to instance 'design_1_i' of component 'design_1' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'design_1' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:642]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_interconnect_0_0' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:398]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_O7FAN0' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:80]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/realtime/design_1_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:263]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/realtime/design_1_auto_pc_0_stub.vhdl:70]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_O7FAN0' (1#1) [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_interconnect_0_0' (2#1) [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:398]
+INFO: [Synth 8-3491] module 'design_1_proc_sys_reset_0_0' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/realtime/design_1_proc_sys_reset_0_0_stub.vhdl:5' bound to instance 'proc_sys_reset_0' of component 'design_1_proc_sys_reset_0_0' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:907]
+INFO: [Synth 8-638] synthesizing module 'design_1_proc_sys_reset_0_0' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/realtime/design_1_proc_sys_reset_0_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'design_1_processing_system7_0_0' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/realtime/design_1_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'design_1_processing_system7_0_0' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:920]
+INFO: [Synth 8-638] synthesizing module 'design_1_processing_system7_0_0' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/realtime/design_1_processing_system7_0_0_stub.vhdl:79]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (3#1) [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:642]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (4#1) [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:61]
+	Parameter PIF_DATA_LENGTH bound to: 32 - type: integer 
+	Parameter PIF_ADDR_LENGTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'axi4pifb' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_ent.vhd:9' bound to instance 'axi4pifb_0' of component 'axi4pifb' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'axi4pifb' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_rtl.vhd:9]
+	Parameter PIF_DATA_LENGTH bound to: 32 - type: integer 
+	Parameter PIF_ADDR_LENGTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'axi4pifb' (5#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_rtl.vhd:9]
+WARNING: [Synth 8-5640] Port 'reg32' is missing in component declaration [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd:116]
+WARNING: [Synth 8-5640] Port 'reg16' is missing in component declaration [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd:116]
+	Parameter PIF_DATA_LENGTH bound to: 32 - type: integer 
+	Parameter PIF_ADDR_LENGTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'lab4_reg' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_ent.vhd:9' bound to instance 'lab4_reg_0' of component 'lab4_reg' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd:361]
+INFO: [Synth 8-638] synthesizing module 'lab4_reg' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_rtl.vhd:10]
+	Parameter PIF_DATA_LENGTH bound to: 32 - type: integer 
+	Parameter PIF_ADDR_LENGTH bound to: 32 - type: integer 
+WARNING: [Synth 8-614] signal 'reg32_i' is read in the process but is not in the sensitivity list [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_rtl.vhd:115]
+WARNING: [Synth 8-614] signal 'reg16_i' is read in the process but is not in the sensitivity list [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_rtl.vhd:115]
+WARNING: [Synth 8-3848] Net reg32 in module/entity lab4_reg does not have driver. [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_ent.vhd:20]
+WARNING: [Synth 8-3848] Net reg16 in module/entity lab4_reg does not have driver. [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_ent.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'lab4_reg' (6#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4reg_rtl.vhd:10]
+INFO: [Synth 8-3491] module 'ram_lab4' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/realtime/ram_lab4_stub.vhdl:5' bound to instance 'ram_lab4_0' of component 'ram_lab4' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd:380]
+INFO: [Synth 8-638] synthesizing module 'ram_lab4' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/realtime/ram_lab4_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'pos_seg7_ctrl' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_ent.vhd:4' bound to instance 'pos_seq7_ctrl_0' of component 'pos_seg7_ctrl' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd:390]
+INFO: [Synth 8-638] synthesizing module 'pos_seg7_ctrl' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_str.vhd:5]
+INFO: [Synth 8-3491] module 'pos_ctrl' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_ent.vhd:4' bound to instance 'POSCTRL_0' of component 'pos_ctrl' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_str.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'pos_ctrl' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_rtl.vhd:5]
+INFO: [Synth 8-3491] module 'p_ctrl' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_ent.vhd:5' bound to instance 'PCTRL' of component 'p_ctrl' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_rtl.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'p_ctrl' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_rtl.vhd:5]
+INFO: [Synth 8-256] done synthesizing module 'p_ctrl' (7#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/p_ctrl_rtl.vhd:5]
+INFO: [Synth 8-3491] module 'pos_meas' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_ent.vhd:5' bound to instance 'POSMEAS' of component 'pos_meas' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_rtl.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'pos_meas' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_rtl.vhd:5]
+INFO: [Synth 8-256] done synthesizing module 'pos_meas' (8#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_meas_rtl.vhd:5]
+INFO: [Synth 8-256] done synthesizing module 'pos_ctrl' (9#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_ctrl_rtl.vhd:5]
+INFO: [Synth 8-3491] module 'seg7ctrl' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_ent.vhd:4' bound to instance 'SEG7CTRL_0' of component 'seg7ctrl' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_str.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'seg7ctrl' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_rtl.vhd:5]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'TIMER' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/timer.vhd:6' bound to instance 'counter' of component 'timer' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_rtl.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'TIMER' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/timer.vhd:16]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'TIMER' (10#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/timer.vhd:16]
+INFO: [Synth 8-3491] module 'DECODER' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/decoder.vhd:5' bound to instance 'dec2to4' of component 'decoder' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_rtl.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'DECODER' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/decoder.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'DECODER' (11#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/decoder.vhd:15]
+INFO: [Synth 8-226] default block is never used [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_bdy.vhd:63]
+INFO: [Synth 8-226] default block is never used [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_bdy.vhd:63]
+INFO: [Synth 8-226] default block is never used [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_bdy.vhd:63]
+INFO: [Synth 8-226] default block is never used [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/subprog_bdy.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'seg7ctrl' (12#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/seg7ctrl_rtl.vhd:5]
+INFO: [Synth 8-3491] module 'cru' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_ent.vhd:4' bound to instance 'CRU_0' of component 'cru' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_str.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'cru' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd:6]
+INFO: [Synth 8-3491] module 'BUFG' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:607' bound to instance 'bufg_0' of component 'bufg' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (13#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-3491] module 'rstsynch' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_ent.vhd:4' bound to instance 'rstsync_0' of component 'rstsynch' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'rstsynch' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_rtl.vhd:4]
+INFO: [Synth 8-256] done synthesizing module 'rstsynch' (14#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/rstsynch_rtl.vhd:4]
+INFO: [Synth 8-3491] module 'BUFG' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:607' bound to instance 'bufg_1' of component 'bufg' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd:62]
+INFO: [Synth 8-3491] module 'BUFG' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:607' bound to instance 'bufg_2' of component 'bufg' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd:69]
+INFO: [Synth 8-3491] module 'clkdiv' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_ent.vhd:4' bound to instance 'clkdiv_0' of component 'clkdiv' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'clkdiv' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_rtl.vhd:5]
+INFO: [Synth 8-256] done synthesizing module 'clkdiv' (15#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/clkdiv_rtl.vhd:5]
+INFO: [Synth 8-3491] module 'BUFG' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:607' bound to instance 'bufg_3' of component 'bufg' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd:84]
+INFO: [Synth 8-256] done synthesizing module 'cru' (16#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd:6]
+INFO: [Synth 8-256] done synthesizing module 'pos_seg7_ctrl' (17#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/pos_seg7_ctrl_str.vhd:5]
+INFO: [Synth 8-3491] module 'ila_0' declared at 'M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/realtime/ila_0_stub.vhdl:5' bound to instance 'ILA' of component 'ila_0' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd:406]
+INFO: [Synth 8-638] synthesizing module 'ila_0' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/realtime/ila_0_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'lab4_top' (18#1) [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd:17]
+WARNING: [Synth 8-3331] design pos_seg7_ctrl has unconnected port sp[7]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[31]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[30]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[29]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[28]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[27]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[26]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[25]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[24]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[23]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[22]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[21]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[20]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[19]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[18]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[17]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[16]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[15]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[14]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[13]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[12]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[11]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[10]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[9]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[8]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[7]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[6]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[5]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[4]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[3]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[2]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[1]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg32[0]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[15]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[14]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[13]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[12]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[11]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[10]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[9]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[8]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[7]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[6]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[5]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[4]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[3]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[2]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[1]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port reg16[0]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[31]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[30]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[29]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[28]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[27]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[26]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[25]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[24]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[23]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[22]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[21]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[20]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[19]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[18]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[17]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[16]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[1]
+WARNING: [Synth 8-3331] design lab4_reg has unconnected port pif_addr[0]
+WARNING: [Synth 8-3331] design axi4pifb has unconnected port s_axi_awprot[2]
+WARNING: [Synth 8-3331] design axi4pifb has unconnected port s_axi_awprot[1]
+WARNING: [Synth 8-3331] design axi4pifb has unconnected port s_axi_awprot[0]
+WARNING: [Synth 8-3331] design axi4pifb has unconnected port s_axi_arprot[2]
+WARNING: [Synth 8-3331] design axi4pifb has unconnected port s_axi_arprot[1]
+WARNING: [Synth 8-3331] design axi4pifb has unconnected port s_axi_arprot[0]
+WARNING: [Synth 8-3331] design s00_couplers_imp_O7FAN0 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_O7FAN0 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design design_1_axi_interconnect_0_0 has unconnected port ACLK
+WARNING: [Synth 8-3331] design design_1_axi_interconnect_0_0 has unconnected port ARESETN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 368.227 ; gain = 157.559
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:22 . Memory (MB): peak = 368.227 ; gain = 157.559
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_auto_pc_0' instantiated as 'lab4processor_0/design_1_i/axi_interconnect_0/s00_couplers/auto_pc' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:263]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_proc_sys_reset_0_0' instantiated as 'lab4processor_0/design_1_i/proc_sys_reset_0' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:907]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'design_1_processing_system7_0_0' instantiated as 'lab4processor_0/design_1_i/processing_system7_0' [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.srcs/sources_1/bd/design_1/hdl/design_1.vhd:920]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ila_0' instantiated as 'ILA' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd:406]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ram_lab4' instantiated as 'ram_lab4_0' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/lab4_top_str.vhd:380]
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp/ila_0_in_context.xdc] for cell 'ILA'
+Finished Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp/ila_0_in_context.xdc] for cell 'ILA'
+Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc] for cell 'lab4processor_0/design_1_i/processing_system7_0'
+Finished Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc] for cell 'lab4processor_0/design_1_i/processing_system7_0'
+Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_3/design_1_proc_sys_reset_0_0_in_context.xdc] for cell 'lab4processor_0/design_1_i/proc_sys_reset_0'
+Finished Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_3/design_1_proc_sys_reset_0_0_in_context.xdc] for cell 'lab4processor_0/design_1_i/proc_sys_reset_0'
+Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_4/design_1_auto_pc_0_in_context.xdc] for cell 'lab4processor_0/design_1_i/axi_interconnect_0/s00_couplers/auto_pc'
+Finished Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_4/design_1_auto_pc_0_in_context.xdc] for cell 'lab4processor_0/design_1_i/axi_interconnect_0/s00_couplers/auto_pc'
+Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_5/ram_lab4_in_context.xdc] for cell 'ram_lab4_0'
+Finished Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_5/ram_lab4_in_context.xdc] for cell 'ram_lab4_0'
+Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/constraints/constraints_lab4.xdc]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 34]]'. [M:/pc/work/inf4431/lab4/lab4/task2/constraints/constraints_lab4.xdc:392]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [M:/pc/work/inf4431/lab4/lab4/task2/constraints/constraints_lab4.xdc:397]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 13]]'. [M:/pc/work/inf4431/lab4/lab4/task2/constraints/constraints_lab4.xdc:402]
+Finished Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/constraints/constraints_lab4.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [M:/pc/work/inf4431/lab4/lab4/task2/constraints/constraints_lab4.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab4_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lab4_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 694.387 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ram_lab4_0' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:46 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:46 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 2).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 3).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[10]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[10]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[11]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[11]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 7).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[12]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 8).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[12]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 9).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[13]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 10).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[13]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 11).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[14]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 12).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[14]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 13).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 14).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 15).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 16).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 17).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[3]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 18).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[3]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 19).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[4]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 20).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[4]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 21).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[5]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 22).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[5]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 23).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[6]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 24).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[6]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 25).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[7]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 26).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[7]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 27).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[8]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 28).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[8]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 29).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_addr[9]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 30).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_addr[9]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 31).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 32).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 33).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 34).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 35).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ba[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 36).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ba[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 37).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_cas_n. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 38).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cas_n. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 39).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_cke. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 40).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cke. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 41).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_cs_n. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 42).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_cs_n. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 43).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ck_p. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 44).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ck_p. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 45).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ck_n. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 46).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ck_n. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 47).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 48).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 49).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 50).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 51).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 52).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 53).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dm[3]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 54).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dm[3]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 55).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 56).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 57).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 58).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 59).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 60).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 61).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_p[3]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 62).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_p[3]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 63).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 64).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 65).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 66).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 67).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 68).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 69).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dqs_n[3]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 70).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dqs_n[3]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 71).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 72).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 73).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[10]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 74).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[10]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 75).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[11]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 76).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[11]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 77).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[12]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 78).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[12]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 79).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[13]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 80).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[13]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 81).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[14]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 82).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[14]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 83).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[15]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 84).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[15]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 85).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[16]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 86).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[16]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 87).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[17]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 88).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[17]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 89).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[18]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 90).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[18]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 91).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[19]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 92).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[19]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 93).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 94).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 95).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[20]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 96).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[20]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 97).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[21]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 98).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[21]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 99).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[22]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 100).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[22]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 101).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[23]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 102).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[23]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 103).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[24]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 104).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[24]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 105).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[25]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 106).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[25]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 107).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[26]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 108).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[26]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 109).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[27]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 110).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[27]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 111).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[28]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 112).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[28]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 113).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[29]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 114).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[29]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 115).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 116).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 117).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[30]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 118).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[30]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 119).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[31]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 120).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[31]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 121).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[3]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 122).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[3]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 123).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[4]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 124).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[4]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 125).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[5]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 126).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[5]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 127).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[6]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 128).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[6]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 129).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[7]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 130).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[7]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 131).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[8]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 132).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[8]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 133).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_dq[9]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 134).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_dq[9]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 135).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_reset_n. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 136).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_reset_n. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 137).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_odt. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 138).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_odt. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 139).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_ras_n. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 140).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_ras_n. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 141).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrn. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 142).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrn. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 143).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrp. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 144).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ddr_vrp. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 145).
+Applied set_property IO_BUFFER_TYPE = NONE for DDR_we_n. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 146).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for DDR_we_n. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 147).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 148).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[0]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 149).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[10]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 150).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[10]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 151).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[11]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 152).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[11]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 153).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[12]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 154).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[12]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 155).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[13]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 156).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[13]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 157).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[14]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 158).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[14]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 159).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[15]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 160).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[15]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 161).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[16]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 162).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[16]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 163).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[17]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 164).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[17]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 165).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[18]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 166).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[18]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 167).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[19]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 168).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[19]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 169).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 170).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[1]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 171).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[20]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 172).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[20]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 173).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[21]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 174).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[21]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 175).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[22]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 176).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[22]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 177).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[23]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 178).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[23]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 179).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[24]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 180).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[24]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 181).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[25]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 182).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[25]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 183).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[26]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 184).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[26]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 185).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[27]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 186).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[27]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 187).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[28]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 188).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[28]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 189).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[29]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 190).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[29]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 191).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 192).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[2]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 193).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[30]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 194).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[30]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 195).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[31]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 196).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[31]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 197).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[32]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 198).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[32]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 199).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[33]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 200).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[33]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 201).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[34]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 202).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[34]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 203).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[35]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 204).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[35]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 205).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[36]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 206).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[36]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 207).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[37]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 208).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[37]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 209).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[38]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 210).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[38]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 211).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[39]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 212).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[39]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 213).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[3]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 214).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[3]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 215).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[40]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 216).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[40]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 217).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[41]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 218).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[41]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 219).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[42]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 220).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[42]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 221).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[43]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 222).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[43]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 223).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[44]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 224).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[44]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 225).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[45]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 226).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[45]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 227).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[46]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 228).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[46]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 229).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[47]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 230).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[47]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 231).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[48]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 232).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[48]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 233).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[49]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 234).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[49]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 235).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[4]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 236).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[4]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 237).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[50]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 238).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[50]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 239).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[51]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 240).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[51]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 241).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[52]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 242).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[52]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 243).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[53]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 244).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[53]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 245).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[5]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 246).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[5]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 247).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[6]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 248).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[6]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 249).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[7]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 250).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[7]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 251).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[8]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 252).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[8]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 253).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_mio[9]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 254).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_mio[9]. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 255).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_clk. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 256).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_clk. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 257).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_porb. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 258).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_porb. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 259).
+Applied set_property IO_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 260).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint file  M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/.Xil/Vivado-1824756-IFI-WESTPORT/dcp_2/design_1_processing_system7_0_0_in_context.xdc, line 261).
+Applied set_property DONT_TOUCH = true for lab4processor_0/design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for lab4processor_0/design_1_i/axi_interconnect_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for lab4processor_0/design_1_i/axi_interconnect_0/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for lab4processor_0/design_1_i/proc_sys_reset_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for lab4processor_0/design_1_i/processing_system7_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ram_lab4_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:47 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'axi_wready_reg' into 'axi_awready_reg' [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/axi4pifb_rtl.vhd:103]
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_state_reg' in module 'axi4pifb'
+INFO: [Synth 8-5546] ROM "pif_regcs_i" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pif_regcs_i" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_ack_wr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_ack_rd" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "fsm_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fsm_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "rwtest_i" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "setpoint_i" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg32_i" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg16_i" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'pres_state_reg' in module 'pos_meas'
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0000 |                             0000
+               rd_access |                             0001 |                             0101
+            rd_data_wait |                             0010 |                             0110
+          rd_access_done |                             0011 |                             0111
+             rd_complete |                             0100 |                             1000
+               wr_access |                             0101 |                             0001
+                 wr_wait |                             0110 |                             0010
+          wr_access_done |                             0111 |                             0011
+             wr_complete |                             1000 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'fsm_state_reg' using encoding 'sequential' in module 'axi4pifb'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             start_up_st |                              000 |                              000
+              wait_a1_st |                              001 |                              001
+              wait_a0_st |                              010 |                              010
+              up_down_st |                              011 |                              011
+           count_down_st |                              100 |                              101
+             count_up_st |                              101 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'pres_state_reg' using encoding 'sequential' in module 'pos_meas'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:47 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 12    
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 9     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 35    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   3 Input     32 Bit        Muxes := 1     
+	   9 Input     32 Bit        Muxes := 4     
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 14    
+	   4 Input      8 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 19    
+	   3 Input      1 Bit        Muxes := 6     
+	   9 Input      1 Bit        Muxes := 21    
+	   4 Input      1 Bit        Muxes := 8     
+	   6 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module lab4_top 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module axi4pifb 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 9     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 17    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   3 Input     32 Bit        Muxes := 1     
+	   9 Input     32 Bit        Muxes := 4     
+	   9 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 6     
+	   9 Input      1 Bit        Muxes := 21    
+Module lab4_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 6     
+Module p_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 5     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 6     
+Module pos_meas 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	  11 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module pos_ctrl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module DECODER 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+Module seg7ctrl 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+Module rstsynch 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
+Module clkdiv 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "lab4_reg_0/setpoint_i" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lab4_reg_0/reg32_i" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lab4_reg_0/rwtest_i" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lab4_reg_0/reg16_i" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design pos_seg7_ctrl has unconnected port sp[7]
+WARNING: [Synth 8-3331] design design_1_axi_interconnect_0_0 has unconnected port ACLK
+WARNING: [Synth 8-3331] design design_1_axi_interconnect_0_0 has unconnected port ARESETN
+WARNING: [Synth 8-3331] design design_1_axi_interconnect_0_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design design_1_axi_interconnect_0_0 has unconnected port M00_ARESETN
+INFO: [Synth 8-3886] merging instance 'axi4pifb_0/axi_rresp_reg[0]' (FDCE) to 'axi4pifb_0/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\axi4pifb_0/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'axi4pifb_0/axi_bresp_reg[0]' (FDCE) to 'axi4pifb_0/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\axi4pifb_0/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_awaddr_reg[31]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_awaddr_reg[30]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_awaddr_reg[29]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_awaddr_reg[28]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_awaddr_reg[27]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_awaddr_reg[26]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_awaddr_reg[1]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_awaddr_reg[0]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_araddr_reg[31]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_araddr_reg[30]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_araddr_reg[29]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_araddr_reg[28]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_araddr_reg[27]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_araddr_reg[26]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_araddr_reg[1]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_araddr_reg[0]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[31]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[30]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[29]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[28]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[27]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[26]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[25]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[24]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[23]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[22]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[21]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[20]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[19]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[18]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[17]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[16]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[15]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[14]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[13]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[12]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[11]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[10]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[9]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[8]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[7]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[6]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[5]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[4]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[3]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[2]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_i_reg[1]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[31]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[30]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[29]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[28]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[27]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[26]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[25]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[24]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[23]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[22]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[21]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[20]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[19]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[18]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[17]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[16]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[1]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_addr_i_reg[0]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[31]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[30]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[29]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[28]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[27]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[26]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[25]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[24]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[23]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[22]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[21]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[20]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[19]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[18]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[17]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[16]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[15]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[14]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[13]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[12]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[11]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[10]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[9]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[8]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[7]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[6]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[5]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[4]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[3]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[2]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_regcs_i_reg[1]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_bresp_reg[1]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/axi_rresp_reg[1]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_str_reg[31]) is unused and will be removed from module lab4_top.
+WARNING: [Synth 8-3332] Sequential element (axi4pifb_0/pif_memcs_str_reg[30]) is unused and will be removed from module lab4_top.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pos_seq7_ctrl_0/\POSCTRL_0/PCTRL/sp_br_reg[7] )
+INFO: [Synth 8-3886] merging instance 'pos_seq7_ctrl_0/POSCTRL_0/PCTRL/sp_int_reg[7]' (FDC) to 'pos_seq7_ctrl_0/POSCTRL_0/PCTRL/sp_br_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pos_seq7_ctrl_0/\POSCTRL_0/PCTRL/sp_br_reg[7] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:50 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'lab4processor_0/design_1_i/processing_system7_0/FCLK_CLK0' to pin 'lab4processor_0/design_1_i/processing_system7_0/bbstub_FCLK_CLK0/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:58 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:58 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:58 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-5410] Found another clock driver \CRU_0/bufg_0 :O [M:/pc/work/inf4431/lab4/lab4/task2/src/lab4_toplevel/cru_str.vhd:45]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:59 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:59 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:59 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:59 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:59 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:59 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------------+----------+
+|      |BlackBox name                   |Instances |
++------+--------------------------------+----------+
+|1     |ram_lab4                        |         1|
+|2     |ila_0                           |         1|
+|3     |design_1_auto_pc_0              |         1|
+|4     |design_1_proc_sys_reset_0_0     |         1|
+|5     |design_1_processing_system7_0_0 |         1|
++------+--------------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------------------+------+
+|      |Cell                                 |Count |
++------+-------------------------------------+------+
+|1     |design_1_auto_pc_0_bbox              |     1|
+|2     |design_1_proc_sys_reset_0_0_bbox     |     1|
+|3     |design_1_processing_system7_0_0_bbox |     1|
+|4     |ila_0_bbox                           |     1|
+|5     |ram_lab4_bbox                        |     1|
+|6     |BUFG                                 |     5|
+|7     |CARRY4                               |     8|
+|8     |LUT1                                 |    20|
+|9     |LUT2                                 |    52|
+|10    |LUT3                                 |    36|
+|11    |LUT4                                 |    25|
+|12    |LUT5                                 |    34|
+|13    |LUT6                                 |   126|
+|14    |MUXF7                                |     8|
+|15    |FDCE                                 |   382|
+|16    |FDPE                                 |    32|
+|17    |FDRE                                 |     8|
+|18    |IBUF                                 |    15|
+|19    |OBUF                                 |    14|
++------+-------------------------------------+------+
+
+Report Instance Areas: 
++------+-------------------------+------------------------------+------+
+|      |Instance                 |Module                        |Cells |
++------+-------------------------+------------------------------+------+
+|1     |top                      |                              |  1173|
+|2     |  pos_seq7_ctrl_0        |pos_seg7_ctrl                 |   235|
+|3     |    CRU_0                |cru                           |    24|
+|4     |      clkdiv_0           |clkdiv                        |    15|
+|5     |      rstsync_0          |rstsynch                      |     4|
+|6     |    POSCTRL_0            |pos_ctrl                      |   138|
+|7     |      PCTRL              |p_ctrl                        |    59|
+|8     |      POSMEAS            |pos_meas                      |    79|
+|9     |    SEG7CTRL_0           |seg7ctrl                      |    73|
+|10    |      counter            |TIMER                         |    61|
+|11    |      dec2to4            |DECODER                       |     4|
+|12    |  axi4pifb_0             |axi4pifb                      |   361|
+|13    |  lab4_reg_0             |lab4_reg                      |   134|
+|14    |  lab4processor_0        |design_1_wrapper              |   379|
+|15    |    design_1_i           |design_1                      |   376|
+|16    |      axi_interconnect_0 |design_1_axi_interconnect_0_0 |   177|
+|17    |        s00_couplers     |s00_couplers_imp_O7FAN0       |   177|
++------+-------------------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:59 . Memory (MB): peak = 694.387 ; gain = 483.719
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 136 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 694.387 ; gain = 114.418
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:59 . Memory (MB): peak = 694.387 ; gain = 483.719
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+145 Infos, 198 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:51 . Memory (MB): peak = 694.387 ; gain = 451.785
+INFO: [Common 17-1381] The checkpoint 'M:/pc/work/inf4431/lab4/lab4/task2/pr/lab4.runs/synth_1/lab4_top.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 694.387 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 06 15:41:12 2018...

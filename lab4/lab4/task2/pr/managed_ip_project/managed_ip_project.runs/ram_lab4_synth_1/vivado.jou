@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Oct 29 14:46:39 2018
+# Process ID: 1431380
+# Current directory: M:/pc/work/inf4431/lab4/lab4/task2/pr/managed_ip_project/managed_ip_project.runs/ram_lab4_synth_1
+# Command line: vivado.exe -log ram_lab4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ram_lab4.tcl
+# Log file: M:/pc/work/inf4431/lab4/lab4/task2/pr/managed_ip_project/managed_ip_project.runs/ram_lab4_synth_1/ram_lab4.vds
+# Journal file: M:/pc/work/inf4431/lab4/lab4/task2/pr/managed_ip_project/managed_ip_project.runs/ram_lab4_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ram_lab4.tcl -notrace

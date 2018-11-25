@@ -1,0 +1,104 @@
+# //  Questa Sim-64
+# //  Version 10.6c_1 linux_x86_64 Sep 15 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim . 
+# Start time: 21:59:07 on Nov 22,2018
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 21:59:07 on Nov 22,2018, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -voptargs=+acc work.tb_opp11
+# vsim -voptargs="+acc" work.tb_opp11 
+# Start time: 21:59:11 on Nov 22,2018
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "fibonacci(rtl)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_opp11(testbench)#1
+# Loading work.fibonacci(rtl)#1
+add wave -position insertpoint  \
+sim:/tb_opp11/rst \
+sim:/tb_opp11/clk \
+sim:/tb_opp11/run \
+sim:/tb_opp11/funcsel \
+sim:/tb_opp11/nmax \
+sim:/tb_opp11/inum \
+sim:/tb_opp11/rdy \
+sim:/tb_opp11/fn
+run 1 us
+# Causality operation skipped due to absence of debug database file
+run 1 us
+# ** Warning: Error
+#    Time: 1290 ns  Iteration: 2  Instance: /tb_opp11
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run 2 us
+# ** Warning: Error
+#    Time: 1290 ns  Iteration: 2  Instance: /tb_opp11
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_opp11(testbench)#1
+# Loading work.fibonacci(rtl)#1
+run 2 us
+# ** Note: correct
+#    Time: 90 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 170 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 250 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 330 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 410 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 490 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 570 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 650 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 730 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 810 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 890 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 970 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 1050 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 1130 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 1210 ns  Iteration: 2  Instance: /tb_opp11
+# ** Warning: Error
+#    Time: 1290 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 1290 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 1370 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 1450 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 1530 ns  Iteration: 2  Instance: /tb_opp11
+# ** Note: correct
+#    Time: 1610 ns  Iteration: 2  Instance: /tb_opp11
+# End time: 23:22:42 on Nov 22,2018, Elapsed time: 1:23:31
+# Errors: 0, Warnings: 2

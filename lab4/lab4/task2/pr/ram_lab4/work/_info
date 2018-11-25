@@ -1,0 +1,289 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/uio/hume/student-u41/wonhol/pc/work/inf4431/lab4/lab4/task2/pr/ram_lab4
+Eram_lab4
+Z1 w1540820878
+Z2 DPx6 unisim 11 vcomponents 0 22 bm9l`@>EljDehV1AYNbEA2
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8ram_lab4_sim_netlist.vhdl
+Z6 Fram_lab4_sim_netlist.vhdl
+l0
+L742
+VGzzfNM19W7Z;EJU^;M9Tb1
+!s100 :<LKWUCb<FD`f96oMEJ?k2
+Z7 OL;C;10.6c_1;65
+33
+Z8 !s110 1540821636
+!i10b 1
+Z9 !s108 1540821634.000000
+Z10 !s90 ram_lab4_sim_netlist.vhdl|
+!s107 ram_lab4_sim_netlist.vhdl|
+!i113 0
+Z11 tExplicit 1 CvgOpt 0
+Astructure
+Z12 DEx4 work 27 ram_lab4_blk_mem_gen_v8_3_5 0 22 ^_fLE=LSYzj_hglcC7E[>0
+R2
+R3
+R4
+DEx4 work 8 ram_lab4 0 22 GzzfNM19W7Z;EJU^;M9Tb1
+l930
+L762
+VA9EVC4i>:1i8F3<e9zIcW2
+!s100 9hW817lg1Eh_=G52_2L2_1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 ram_lab4_sim_netlist.vhdl|
+!i113 0
+R11
+Eram_lab4_blk_mem_gen_generic_cstr
+R1
+R2
+R3
+R4
+R0
+R5
+R6
+l0
+L301
+VC:H1PmM8@nBUbDFTdVgMO0
+!s100 8zJc2fEMXNki;nhN=6AM91
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+Astructure
+Z14 DEx4 work 31 ram_lab4_blk_mem_gen_prim_width 0 22 D5o<o1EQg;2[EVhBNK<Bm3
+R2
+R3
+R4
+Z15 DEx4 work 33 ram_lab4_blk_mem_gen_generic_cstr 0 22 C:H1PmM8@nBUbDFTdVgMO0
+l316
+L315
+Vm@PWY0^0PeCeNH8GFa92V0
+!s100 g72Ya;L7X9Kg@Gczg`R1O0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+Eram_lab4_blk_mem_gen_prim_width
+R1
+R2
+R3
+R4
+R0
+R5
+R6
+l0
+L270
+VD5o<o1EQg;2[EVhBNK<Bm3
+!s100 ^2m9]jCIlodW>B_a^Uj<D0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+Astructure
+Z16 DEx4 work 33 ram_lab4_blk_mem_gen_prim_wrapper 0 22 gRI0VeNe9S;=67H_OR85E2
+R2
+R3
+R4
+R14
+l285
+L284
+V6J:68;o26PQf]MfZZfTlh3
+!s100 _S1gj]nQbO;WTX@e>AklN2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+Eram_lab4_blk_mem_gen_prim_wrapper
+R1
+R2
+R3
+R4
+R0
+R5
+R6
+l0
+L16
+VgRI0VeNe9S;=67H_OR85E2
+!s100 JB5TPPlQU^kA3;doM>5i;1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+Astructure
+R2
+R3
+R4
+R16
+l47
+L30
+Vf_DGA];Hl?:zUfNa3gCbn1
+!s100 >JO7445=Gzg6HIO@3kczN0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+Eram_lab4_blk_mem_gen_top
+R1
+R2
+R3
+R4
+R0
+R5
+R6
+l0
+L332
+Ve9IIDUoK;ZIZ_ES@m<clK2
+!s100 [3g]_UFFhOC>NARVGVaa73
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+Astructure
+R15
+R2
+R3
+R4
+Z17 DEx4 work 24 ram_lab4_blk_mem_gen_top 0 22 e9IIDUoK;ZIZ_ES@m<clK2
+l347
+L346
+V5z<Pe`k9=j4`UV3S^ITfj0
+!s100 [JI^W1MjzHoA>bNW<lClA2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+Eram_lab4_blk_mem_gen_v8_3_5
+R1
+R2
+R3
+R4
+R0
+R5
+R6
+l0
+L394
+V^_fLE=LSYzj_hglcC7E[>0
+!s100 cWm5VO2Fe3R?AJjJ^^>^B2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+Astructure
+Z18 DEx4 work 33 ram_lab4_blk_mem_gen_v8_3_5_synth 0 22 ?jS7Ozk66c1W4<F@CGE]A2
+R2
+R3
+R4
+R12
+l614
+L612
+V_iWETjd34JUn4n3WfoM_<0
+!s100 TMaAh9hS0I?`fYm3ga8@T1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+Eram_lab4_blk_mem_gen_v8_3_5_synth
+R1
+R2
+R3
+R4
+R0
+R5
+R6
+l0
+L363
+V?jS7Ozk66c1W4<F@CGE]A2
+!s100 olV1^W5h6U2dI7c]nOECZ1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
+Astructure
+R17
+R2
+R3
+R4
+R18
+l378
+L377
+VR`lN7?8H;KQjj=0LjNCjg3
+!s100 V9^eJRCU`V7R:6AI:^`Gm2
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 0
+R11
